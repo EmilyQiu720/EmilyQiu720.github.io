@@ -8,17 +8,17 @@ In my free time, I enjoy exploring new data analysis tools and techniques, and I
 This is a repository to showcase skills, share projects and track my progress in Data Analytics / Data Science related topics.
 
 ## Table of Contents
-- [About](https://github.com/tiannaparris/Data-Analysis-Portfolio/blob/main/README.md#about)
-- [Portfolio Projects](https://github.com/tiannaparris/Data-Analysis-Portfolio/blob/main/README.md#portfolio-projects)
+- [About](https://github.com/github.com/EmilyQiu720/EmilyQiu720.github.io/blob/main/README.md#about)
+- [Portfolio Projects](https://github.com/github.com/EmilyQiu720/EmilyQiu720.github.io/blob/main/README.md#portfolio-projects)
   - Python
     - [The Traveling Salesman Problem](https://github.com/EmilyQiu720/EmilyQiu720.github.io#the-traveling-salesman-problem)
   - SQL
   - R
-    - [Legendary Pokémon Analysis (Study Project)](https://github.com/tiannaparris/Data-Analysis-Portfolio#legendary-pok%C3%A9mon-analysis)
+    - [Legendary Pokémon Analysis (Study Project)](https://github.com/github.com/EmilyQiu720/EmilyQiu720.github.io#legendary-pok%C3%A9mon-analysis)
   - Excel / Google Sheets
-  - Tableau---> [go to Tableau..](https://public.tableau.com/app/profile/tianna.parris)
+  - Tableau---> [go to Tableau..](https://public.tableau.com/app/profile/)
   - Power BI
-- [Contact](https://github.com/tiannaparris/Data-Analysis-Portfolio/blob/main/README.md#contacts)
+- [Contact](https://github.com/github.com/EmilyQiu720/EmilyQiu720.github.io/blob/main/README.md#contacts)
 
 ## Portfolio Projects
 In this section I will list data analytics projects briefly describing the technology stack used to solve cases.
