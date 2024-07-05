@@ -1,17 +1,18 @@
 ## About
-Hi, I'm Emily! I have an analytical background in Applied Mathematics and currently, I am on track to completing my degree in Analytics (MS. Analytics). I have developed a strong foundation in the life sciences and a passion for using data to uncover meaningful insights. I am excited to bring my technical and analytical skills to the field of data science as an entry-level data specialist. 
+Hi, I'm Emily! I hold a bachelor's degree in Applied Mathematics and am currently pursuing my MS in Analytics at UC Berkeley. My academic background has equipped me with a strong foundation in mathematics and statistics, driving my passion for deriving actionable insights from data across diverse industries. I am eager to apply my technical and analytical skills as an entry-level data specialist in data science.
 
-During my studies, I honed my ability to work with complex data and developed a keen eye for identifying patterns and trends. I also gained experience in laboratory techniques, data management, and statistical analysis, which I believe will be valuable assets in my role as a data specialist.
+Beyond academics, I actively explore new data analysis tools and methodologies, continuously expanding my knowledge. Whether collaborating in teams or independently, I find satisfaction in uncovering insights and solving complex problems using data.
 
-In my free time, I enjoy exploring new data analysis tools and techniques, and I am always looking for opportunities to expand my knowledge and skills. Whether working on a team or independently, I am driven by the thrill of discovering new insights and the satisfaction of using data to solve complex problems.
+Outside of academia, I dedicate my free time to exploring new data analysis tools and methodologies, constantly seeking opportunities to enhance my knowledge and skill set. Whether collaborating within a team or working independently, I am motivated by the thrill of discovering new insights and the gratification of leveraging data to tackle intricate problems.
 
-This is a repository to showcase skills, share projects and track my progress in Data Analytics / Data Science related topics.
+This portfolio highlights my proficiency in various data analysis tools and programming skills, demonstrating my growth and commitment to this dynamic field.
 
 ## Table of Contents
 - [About](https://github.com/github.com/EmilyQiu720/EmilyQiu720.github.io/blob/main/README.md#about)
 - [Portfolio Projects](https://github.com/github.com/EmilyQiu720/EmilyQiu720.github.io/blob/main/README.md#portfolio-projects)
   - Python
     - [The Traveling Salesman Problem](https://github.com/EmilyQiu720/EmilyQiu720.github.io#the-traveling-salesman-problem)
+    - [Machine learning approaches for super-resolution problems]
   - SQL
   - R
     - [Legendary Pokémon Analysis (Study Project)](https://github.com/github.com/EmilyQiu720/EmilyQiu720.github.io#legendary-pok%C3%A9mon-analysis)
@@ -21,37 +22,34 @@ This is a repository to showcase skills, share projects and track my progress in
 - [Contact](https://github.com/github.com/EmilyQiu720/EmilyQiu720.github.io/blob/main/README.md#contacts)
 
 ## Portfolio Projects
-In this section I will list data analytics projects briefly describing the technology stack used to solve cases.
 
-### The Traveling Salesman Problem
+### The Traveling Salesman Problem (TSP)
 **Code:** [`Analyzing the Factors Contributing to the Success of a Movie.ipynb`](https://github.com/EmilyQiu720/PortfolioProjects/tree/main/The%20Traveling%20Salesman%20Problem)
 
-**Goal:** To determine what factors contribute the most to a movie's success.
+**Goal:** To assess various algorithmic strategies against the TSPLIB dataset to identify the most effective approaches for symmetric TSP instances.
 
-**Description:** The project focused on analyzing a dataset of movies released between 1980 and 2022. The dataset included movie titles, ratings, genres, release dates, budgets, gross earnings, and other relevant information. The project involved loading the data, cleaning and preprocessing it, performing exploratory data analysis (EDA), analyzing the correlation between budget and gross earnings, and implemented Pearson’s correlation statistical analysis.
+**Description:** The project implemented a branch and cut algorithm for solving the Traveling Salesman Problem (TSP) using Python 3.10 and IBM's CPLEX version 22.1.1.0. The DOcplex API facilitates communication between our code and CPLEX, leveraging callbacks to interact during the algorithm's execution.
 
-**Skills:** data cleaning, data analysis, correlation matrices, hypothesis testing, data visualization.
+Key features include:
 
-**Technology:** Python, Pandas, Numpy, Seaborn, Matplotlib, SciPy.
+Warm-Start Initialization: Utilizing the Nearest Neighbour and two-opt algorithms to provide an initial solution. (Other optional algorithms are implemented as well)
+Integer Programming (IP) Gap: Monitoring the difference between the incumbent and lower bound to guide termination.
+Heuristic Callbacks: Constructing feasible solutions to improve the incumbent during the branch and cut process.
+Cutting Plane Techniques: Implementing sub-tour elimination constraints (SECs) and 2-matching inequalities for fractional solutions.
+Systematic Node Exploration and Pruning: Efficiently exploring and pruning nodes to ensure convergence to the optimal solution.
 
-**Results:** Using Python functions the analysis revealed that votes and budget have the highest correlation with gross earnings, while the company has no significant correlation.
+This approach ensures a robust and efficient solution process for the TSP, integrating advanced branch and cut techniques and heuristic methods.
+
+**Skills:** data handling and manipulation, optimization techniques, algorithm development and optimization, statistical analysis, heuristic methods, performance monitoring, computation efficiency, software integration.
+
+**Technology:** Python: Numpy, Matplotlib, cplex, docplex.
+
+**Results:** Explored an exact solution strategy to the TSP with a set of supplementary augmentations to this solution process. Affirmed that this solution strategy constitutes a viable exact strategy for the TSP and that when applied in conjunction, each of our augmentations do indeed aid the solution process - as is expected given the widespread attention these augmentations have received. 
+
+### Machine learning approaches for super-resolution problems
+
 
 
 [<img align="left" alt="JoshMadakor | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 
 [linkedin]: https://linkedin.com/in/emily-qiqiu/
-
-<!--
-**joshmadakor1/joshmadakor1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
