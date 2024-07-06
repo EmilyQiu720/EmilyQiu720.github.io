@@ -14,7 +14,7 @@ This portfolio highlights my proficiency in various data analysis tools and prog
     - [The Traveling Salesman Problem (TSP)](https://github.com/EmilyQiu720/EmilyQiu720.github.io/tree/main#the-traveling-salesman-problem-tsp)
     - [Machine learning approaches for super-resolution problems](https://github.com/EmilyQiu720/EmilyQiu720.github.io/tree/main#machine-learning-approaches-for-super-resolution-problems)
   - MATLAB
-    - [Machine Learning Explorer Application (MLx.m)]
+    - [Machine Learning Explorer Application (MLx.m)](https://github.com/EmilyQiu720/EmilyQiu720.github.io/tree/main#machine-learning-explorer-application-mlxm)
   - SQL
   - R
   - Excel / Google Sheets
