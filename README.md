@@ -105,7 +105,7 @@ Approach pairing Sentinel-1 data with Capella data shows promise with its effici
 
 **Goal:** To integrate a new data type (poker hands dataset) to the application; to create new App features by enabling accuracy and loss metrics, along with dynamic confusion chart for models training, testing and deploying automatically.
 
-**Description:** The ['pokerhand dataset'](https://archive.ics.uci.edu/dataset/158/poker+hand) comprises thousands of entries, each representing a sequence of five playing cards characterized by their suit and rank values. The dataset includes attributes such as the suit and rank of each card, encoded numerically (1-4 for suits representing Hearts, Clubs, Diamonds, and Spades, and 1-13 for ranks representing Ace through King). Each entry ends with a class label ranging from 0 to 9, indicating the type of poker hand formed by the five cards, such as "Royal Flush" or "Two Pairs". 
+**Description:** The [pokerhand dataset](https://archive.ics.uci.edu/dataset/158/poker+hand) comprises thousands of entries, each representing a sequence of five playing cards characterized by their suit and rank values. The dataset includes attributes such as the suit and rank of each card, encoded numerically (1-4 for suits representing Hearts, Clubs, Diamonds, and Spades, and 1-13 for ranks representing Ace through King). Each entry ends with a class label ranging from 0 to 9, indicating the type of poker hand formed by the five cards, such as "Royal Flush" or "Two Pairs". 
 
 The tasks include loading the dataset, visualizing its structure, developing feature selection algorithms, implementing normalization/scaling techniques, preprocessing the data for input into machine learning models, conducting model training and evaluation, optimizing parameters, and visualizing data insights.
 
@@ -124,17 +124,17 @@ Additionally, the integration facilitated dynamic generation of confusion charts
 <img align="left" src="images/Machine Learning Explorer Application (MLx.m)/confusion_chart.png" />
 
 ## Certificates
-- ["App Building Onramp"](https://matlabacademy.mathworks.com/progress/share/certificate.html?id=28510b61-79f7-48e8-87f0-7b6b9dee6623&)
-- ["MATLAB Onramp"](https://matlabacademy.mathworks.com/progress/share/certificate.html?id=9b11823d-a74c-4d68-b795-5195298c9199&)
-- ["Machine Learning Onramp"](https://matlabacademy.mathworks.com/progress/share/certificate.html?id=f77f95b0-c025-438d-8437-eac85445c6aa&)
-- ["Object-Oriented Programming Onramp"](https://matlabacademy.mathworks.com/progress/share/certificate.html?id=fa42b52e-d65c-465b-9019-d8dc305d43a4&)
-- ["Data Analysis Using Python"](https://www.coursera.org/account/accomplishments/certificate/E3S53EXE9R9U)
-- ["Operations Analytics"](https://www.coursera.org/account/accomplishments/certificate/VMUDQPE2AQ5P)
-- ["Customer Analytics"](https://www.coursera.org/account/accomplishments/certificate/9WSMQR287XZ4)
-- ["What is Data Science?"](https://www.coursera.org/account/accomplishments/certificate/K69NGRPHCG8E)
+- [App Building Onramp](https://matlabacademy.mathworks.com/progress/share/certificate.html?id=28510b61-79f7-48e8-87f0-7b6b9dee6623&)
+- [MATLAB Onramp](https://matlabacademy.mathworks.com/progress/share/certificate.html?id=9b11823d-a74c-4d68-b795-5195298c9199&)
+- [Machine Learning Onramp](https://matlabacademy.mathworks.com/progress/share/certificate.html?id=f77f95b0-c025-438d-8437-eac85445c6aa&)
+- [Object-Oriented Programming Onramp](https://matlabacademy.mathworks.com/progress/share/certificate.html?id=fa42b52e-d65c-465b-9019-d8dc305d43a4&)
+- [Data Analysis Using Python](https://www.coursera.org/account/accomplishments/certificate/E3S53EXE9R9U)
+- [Operations Analytics](https://www.coursera.org/account/accomplishments/certificate/VMUDQPE2AQ5P)
+- [Customer Analytics](https://www.coursera.org/account/accomplishments/certificate/9WSMQR287XZ4)
+- [What is Data Science?](https://www.coursera.org/account/accomplishments/certificate/K69NGRPHCG8E)
 
 
 ## Contact
 
-- LinkedIn: ["@emily-qiqiu"](https://linkedin.com/in/emily-qiqiu/)
-- Email: emily_qqiu@outlook.com
+- LinkedIn: [@emily-qiqiu](https://linkedin.com/in/emily-qiqiu/)
+- Email: [emily_qqiu@outlook.com](emily_qqiu@outlook.com)
