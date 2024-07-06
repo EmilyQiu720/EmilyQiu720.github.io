@@ -8,20 +8,20 @@ Outside of academia, I dedicate my free time to exploring new data analysis tool
 This portfolio highlights my proficiency in various data analysis tools and programming skills, demonstrating my growth and commitment to this dynamic field.
 
 ## Table of Contents
-- [About](#about)
-- [Portfolio Projects](#portfolio-projects)
+- [About](emilyqiu720.github.io/#about)
+- [Portfolio Projects](emilyqiu720.github.io/#portfolio-projects)
   - Python
-    - [The Traveling Salesman Problem (TSP)](#the-traveling-salesman-problem-tsp)
-    - [Machine learning approaches for super-resolution problems](#machine-learning-approaches-for-super-resolution-problems)
+    - [The Traveling Salesman Problem (TSP)](emilyqiu720.github.io/#the-traveling-salesman-problem-tsp)
+    - [Machine learning approaches for super-resolution problems](emilyqiu720.github.io/#machine-learning-approaches-for-super-resolution-problems)
   - MATLAB
-    - [Machine Learning Explorer Application (MLx.m)](#machine-learning-explorer-application-mlxm)
+    - [Machine Learning Explorer Application (MLx.m)](emilyqiu720.github.io/#machine-learning-explorer-application-mlxm)
   - SQL
   - R
   - Excel / Google Sheets
   - Tableau---> [go to Tableau..](https://public.tableau.com/app/profile/)
   - Power BI
-- [Certificates](#certificates)
-- [Contact](#contact)
+- [Certificates](emilyqiu720.github.io/#certificates)
+- [Contact](emilyqiu720.github.io/#contact)
 
 ## Portfolio Projects
 
