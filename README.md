@@ -24,7 +24,7 @@ This portfolio highlights my proficiency in various data analysis tools and prog
 ## Portfolio Projects
 
 ### The Traveling Salesman Problem (TSP)
-**Code:** [`Analyzing the Factors Contributing to the Success of a Movie.ipynb`](https://github.com/EmilyQiu720/PortfolioProjects/tree/main/The%20Traveling%20Salesman%20Problem)
+**Code:** [`The Traveling Salesman Problem`](https://github.com/EmilyQiu720/PortfolioProjects/tree/main/The%20Traveling%20Salesman%20Problem)
 
 **Goal:** To assess various algorithmic strategies against the TSPLIB dataset to identify the most effective approaches for symmetric TSP instances.
 
@@ -32,11 +32,15 @@ This portfolio highlights my proficiency in various data analysis tools and prog
 
 Key features include:
 
-Warm-Start Initialization: Utilizing the Nearest Neighbour and two-opt algorithms to provide an initial solution. (Other optional algorithms are implemented as well)
-Integer Programming (IP) Gap: Monitoring the difference between the incumbent and lower bound to guide termination.
-Heuristic Callbacks: Constructing feasible solutions to improve the incumbent during the branch and cut process.
-Cutting Plane Techniques: Implementing sub-tour elimination constraints (SECs) and 2-matching inequalities for fractional solutions.
-Systematic Node Exploration and Pruning: Efficiently exploring and pruning nodes to ensure convergence to the optimal solution.
+- Warm-Start Initialization: Utilizing the Nearest Neighbour and two-opt algorithms to provide an initial solution. (Other optional algorithms are implemented as well)
+
+- Integer Programming (IP) Gap: Monitoring the difference between the incumbent and lower bound to guide termination.
+
+- Heuristic Callbacks: Constructing feasible solutions to improve the incumbent during the branch and cut process.
+
+- Cutting Plane Techniques: Implementing sub-tour elimination constraints (SECs) and 2-matching inequalities for fractional solutions.
+
+- Systematic Node Exploration and Pruning: Efficiently exploring and pruning nodes to ensure convergence to the optimal solution.
 
 This approach ensures a robust and efficient solution process for the TSP, integrating advanced branch and cut techniques and heuristic methods.
 
