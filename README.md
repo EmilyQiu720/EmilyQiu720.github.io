@@ -20,7 +20,7 @@ This portfolio highlights my proficiency in various data analysis tools and prog
   - Excel / Google Sheets
   - Tableau---> [go to Tableau..](https://public.tableau.com/app/profile/)
   - Power BI
-- [Certificates]()
+- [Certificates](https://github.com/EmilyQiu720/EmilyQiu720.github.io/blob/main/README.md#certificates)
 - [Contact](https://github.com/EmilyQiu720/EmilyQiu720.github.io/tree/main#contact)
 
 ## Portfolio Projects
