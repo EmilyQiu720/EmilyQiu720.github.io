@@ -94,7 +94,7 @@ Approach pairing Sentinel-1 data with Capella data shows promise with its effici
 
 <img align="left" src="images/Machine%20learning%20approaches%20for%20super-resolution%20problems/approach%201%20(bilinear%20interpolation).jpg" />
 
-<img align="left" src=images/Machine%20learning%20approaches%20for%20super-resolution%20problems/Approach%201%20(EDSRx2).jpg" />
+<img align="left" src="images/Machine%20learning%20approaches%20for%20super-resolution%20problems/Approach%201%20(EDSRx2).jpg" />
 
 <img align="left" src="images/Machine%20learning%20approaches%20for%20super-resolution%20problems/Approach%202.jpg" />
 
