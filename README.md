@@ -9,19 +9,19 @@ This portfolio highlights my proficiency in various data analysis tools and prog
 
 ## Table of Contents
 - [About](#about)
-- [Portfolio Projects](https://github.com/EmilyQiu720/EmilyQiu720.github.io/tree/main#portfolio-projects)
+- [Portfolio Projects](#portfolio-projects)
   - Python
-    - [The Traveling Salesman Problem (TSP)](https://github.com/EmilyQiu720/EmilyQiu720.github.io/tree/main#the-traveling-salesman-problem-tsp)
-    - [Machine learning approaches for super-resolution problems](https://github.com/EmilyQiu720/EmilyQiu720.github.io/tree/main#machine-learning-approaches-for-super-resolution-problems)
+    - [The Traveling Salesman Problem (TSP)](#the-traveling-salesman-problem-tsp)
+    - [Machine learning approaches for super-resolution problems](#machine-learning-approaches-for-super-resolution-problems)
   - MATLAB
-    - [Machine Learning Explorer Application (MLx.m)](https://github.com/EmilyQiu720/EmilyQiu720.github.io/tree/main#machine-learning-explorer-application-mlxm)
+    - [Machine Learning Explorer Application (MLx.m)](#machine-learning-explorer-application-mlxm)
   - SQL
   - R
   - Excel / Google Sheets
   - Tableau---> [go to Tableau..](https://public.tableau.com/app/profile/)
   - Power BI
-- [Certificates](https://github.com/EmilyQiu720/EmilyQiu720.github.io/blob/main/README.md#certificates)
-- [Contact](https://github.com/EmilyQiu720/EmilyQiu720.github.io/tree/main#contact)
+- [Certificates](#certificates)
+- [Contact](#contact)
 
 ## Portfolio Projects
 
