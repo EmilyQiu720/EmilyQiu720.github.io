@@ -61,9 +61,9 @@ We ran the full implementation suite with a 1-hour time-limit on a set of 89 pro
 
 
 
-<img align="left"  src="https://github.com/EmilyQiu720/EmilyQiu720.github.io/blob/main/images/The%20Traveling%20Salesman%20Problem/TSP%20Results.png" />
+<img align="left"  src="images/The%20Traveling%20Salesman%20Problem/TSP%20Results.png" />
 
-<img align="left"  src="https://github.com/EmilyQiu720/EmilyQiu720.github.io/blob/main/images/The%20Traveling%20Salesman%20Problem/TSPLIB%20data.png" />
+<img align="left"  src="images/The%20Traveling%20Salesman%20Problem/TSPLIB%20data.png" />
 
 
 ### Machine learning approaches for super-resolution problems
@@ -92,11 +92,11 @@ Machine learning models (Random Forest, Gradient Boosting, Decision Tree) were s
 
 Approach pairing Sentinel-1 data with Capella data shows promise with its efficient use and initial positive outcomes, suggesting a need for further exploration and integration of tailored feature layers to improve model performance.
 
-<img align="left" src="https://github.com/EmilyQiu720/EmilyQiu720.github.io/blob/main/images/Machine%20learning%20approaches%20for%20super-resolution%20problems/approach%201%20(bilinear%20interpolation).jpg" />
+<img align="left" src="images/Machine%20learning%20approaches%20for%20super-resolution%20problems/approach%201%20(bilinear%20interpolation).jpg" />
 
-<img align="left" src="https://github.com/EmilyQiu720/EmilyQiu720.github.io/blob/main/images/Machine%20learning%20approaches%20for%20super-resolution%20problems/Approach%201%20(EDSRx2).jpg" />
+<img align="left" src=images/Machine%20learning%20approaches%20for%20super-resolution%20problems/Approach%201%20(EDSRx2).jpg" />
 
-<img align="left" src="https://github.com/EmilyQiu720/EmilyQiu720.github.io/blob/main/images/Machine%20learning%20approaches%20for%20super-resolution%20problems/Approach%202.jpg" />
+<img align="left" src="images/Machine%20learning%20approaches%20for%20super-resolution%20problems/Approach%202.jpg" />
 
 ### Machine Learning Explorer Application (MLx.m)
 
