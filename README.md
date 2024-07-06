@@ -8,7 +8,7 @@ Outside of academia, I dedicate my free time to exploring new data analysis tool
 This portfolio highlights my proficiency in various data analysis tools and programming skills, demonstrating my growth and commitment to this dynamic field.
 
 ## Table of Contents
-- [About](https://github.com/EmilyQiu720/EmilyQiu720.github.io/tree/main#about)
+- [About](#about)
 - [Portfolio Projects](https://github.com/EmilyQiu720/EmilyQiu720.github.io/tree/main#portfolio-projects)
   - Python
     - [The Traveling Salesman Problem (TSP)](https://github.com/EmilyQiu720/EmilyQiu720.github.io/tree/main#the-traveling-salesman-problem-tsp)
