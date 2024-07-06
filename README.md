@@ -8,14 +8,15 @@ Outside of academia, I dedicate my free time to exploring new data analysis tool
 This portfolio highlights my proficiency in various data analysis tools and programming skills, demonstrating my growth and commitment to this dynamic field.
 
 ## Table of Contents
-- [About](https://github.com/github.com/EmilyQiu720/EmilyQiu720.github.io/blob/main/README.md#about)
-- [Portfolio Projects](https://github.com/github.com/EmilyQiu720/EmilyQiu720.github.io/blob/main/README.md#portfolio-projects)
+- [About](https://github.com/EmilyQiu720/EmilyQiu720.github.io/tree/main#about)
+- [Portfolio Projects](https://github.com/EmilyQiu720/EmilyQiu720.github.io/tree/main#portfolio-projects)
   - Python
-    - [The Traveling Salesman Problem](https://github.com/EmilyQiu720/EmilyQiu720.github.io#the-traveling-salesman-problem)
-    - [Machine learning approaches for super-resolution problems]
+    - [The Traveling Salesman Problem (TSP)](https://github.com/EmilyQiu720/EmilyQiu720.github.io/tree/main#the-traveling-salesman-problem-tsp)
+    - [Machine learning approaches for super-resolution problems](https://github.com/EmilyQiu720/EmilyQiu720.github.io/tree/main#machine-learning-approaches-for-super-resolution-problems)
+  - MATLAB
+    - [Machine Learning Explorer Application (MLx.m)]
   - SQL
   - R
-    - [Legendary Pokémon Analysis (Study Project)](https://github.com/github.com/EmilyQiu720/EmilyQiu720.github.io#legendary-pok%C3%A9mon-analysis)
   - Excel / Google Sheets
   - Tableau---> [go to Tableau..](https://public.tableau.com/app/profile/)
   - Power BI
@@ -97,9 +98,23 @@ Approach pairing Sentinel-1 data with Capella data shows promise with its effici
 
 <img align="left" src="https://github.com/EmilyQiu720/EmilyQiu720.github.io/blob/main/images/Machine%20learning%20approaches%20for%20super-resolution%20problems/Approach%202.jpg" />
 
+### Machine Learning Explorer Application (MLx.m)
+
+**Code:** The project code is restricted from public access due to its status as an educational application currently in development. It is designated for private use within the university under the oversight of the professor.
+
+**Goal:** 
+
+**Description:** 
+
+**Skills:** 
+
+**Technology:** 
+
+**Results:** 
 
 
-### Contact
+
+## Contact
 
 [<img align="left" alt="JoshMadakor | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 
