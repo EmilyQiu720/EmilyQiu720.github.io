@@ -102,15 +102,21 @@ Approach pairing Sentinel-1 data with Capella data shows promise with its effici
 
 **Code:** The project code is restricted from public access due to its status as an educational application currently in development. It is designated for private use within the university under the oversight of the professor.
 
-**Goal:** 
+**Goal:** To integrate a new data type (poker hands dataset) to the application; to create new App features by enabling accuracy and loss metrics, along with dynamic confusion chart for models training, testing and deploying automatically.
 
-**Description:** 
+**Description:** The ['pokerhand dataset'](https://archive.ics.uci.edu/dataset/158/poker+hand) comprises thousands of entries, each representing a sequence of five playing cards characterized by their suit and rank values. The dataset includes attributes such as the suit and rank of each card, encoded numerically (1-4 for suits representing Hearts, Clubs, Diamonds, and Spades, and 1-13 for ranks representing Ace through King). Each entry ends with a class label ranging from 0 to 9, indicating the type of poker hand formed by the five cards, such as "Royal Flush" or "Two Pairs". 
 
-**Skills:** 
+The tasks include loading the dataset, visualizing its structure, developing feature selection algorithms, implementing normalization/scaling techniques, preprocessing the data for input into machine learning models, conducting model training and evaluation, optimizing parameters, and visualizing data insights.
 
-**Technology:** 
 
-**Results:** 
+
+**Skills:** Machine Learning, data preprocessing, data analysis, data visualization.
+
+**Technology:** MATLAB (object-oriented coding, graphics and GUI toolbox, statistics and machine learning Toolbox)
+
+**Results:** The Poker Hands dataset is successfully integrated, which expands the application's functionality. This enhancement introduced automated computation of accuracy and loss metrics, providing detailed insights into model performance during training, testing, and deployment phases. 
+
+Additionally, the integration facilitated dynamic generation of confusion charts, enabling real-time visualization and analysis of classification results, thereby enhancing the application's capability to evaluate and refine predictive models effectively.
 
 <img align="left" src="images/Machine Learning Explorer Application (MLx.m)/MLx app.png" />
 
