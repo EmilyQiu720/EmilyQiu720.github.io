@@ -62,9 +62,9 @@ We ran the full implementation suite with a 1-hour time-limit on a set of 89 pro
 
 
 
-<img align="left"  src="images/The%20Traveling%20Salesman%20Problem/TSP%20Results.png" />
+<img align="left"  src="images/The%20Traveling%20Salesman%20Problem/TSP%20Results.png" /><br>
 
-<img align="left"  src="images/The%20Traveling%20Salesman%20Problem/TSPLIB%20data.png" />
+<img align="left"  src="images/The%20Traveling%20Salesman%20Problem/TSPLIB%20data.png" /><br>
 
 
 ### Machine learning approaches for super-resolution problems
