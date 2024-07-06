@@ -20,7 +20,8 @@ This portfolio highlights my proficiency in various data analysis tools and prog
   - Excel / Google Sheets
   - Tableau---> [go to Tableau..](https://public.tableau.com/app/profile/)
   - Power BI
-- [Contact](https://github.com/github.com/EmilyQiu720/EmilyQiu720.github.io/blob/main/README.md#contacts)
+- [Certificates]()
+- [Contact](https://github.com/EmilyQiu720/EmilyQiu720.github.io/tree/main#contact)
 
 ## Portfolio Projects
 
@@ -122,8 +123,18 @@ Additionally, the integration facilitated dynamic generation of confusion charts
 
 <img align="left" src="images/Machine Learning Explorer Application (MLx.m)/confusion_chart.png" />
 
+## Certificates
+- ["App Building Onramp"](https://matlabacademy.mathworks.com/progress/share/certificate.html?id=28510b61-79f7-48e8-87f0-7b6b9dee6623&)
+- ["MATLAB Onramp"](https://matlabacademy.mathworks.com/progress/share/certificate.html?id=9b11823d-a74c-4d68-b795-5195298c9199&)
+- ["Machine Learning Onramp"](https://matlabacademy.mathworks.com/progress/share/certificate.html?id=f77f95b0-c025-438d-8437-eac85445c6aa&)
+- ["Object-Oriented Programming Onramp"](https://matlabacademy.mathworks.com/progress/share/certificate.html?id=fa42b52e-d65c-465b-9019-d8dc305d43a4&)
+- ["Data Analysis Using Python"](https://www.coursera.org/account/accomplishments/certificate/E3S53EXE9R9U)
+- ["Operations Analytics"](https://www.coursera.org/account/accomplishments/certificate/VMUDQPE2AQ5P)
+- ["Customer Analytics"](https://www.coursera.org/account/accomplishments/certificate/9WSMQR287XZ4)
+- ["What is Data Science?"](https://www.coursera.org/account/accomplishments/certificate/K69NGRPHCG8E)
+
+
 ## Contact
 
-[<img align="left" alt="JoshMadakor | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-
-[linkedin]: https://linkedin.com/in/emily-qiqiu/
+- LinkedIn: ["@emily-qiqiu"](https://linkedin.com/in/emily-qiqiu/)
+- Email: emily_qqiu@outlook.com
