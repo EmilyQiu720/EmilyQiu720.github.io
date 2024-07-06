@@ -112,7 +112,9 @@ Approach pairing Sentinel-1 data with Capella data shows promise with its effici
 
 **Results:** 
 
+<img align="left" src="images/Machine Learning Explorer Application (MLx.m)/MLx app.png" />
 
+<img align="left" src="images/Machine Learning Explorer Application (MLx.m)/confusion_chart.png" />
 
 ## Contact
 
