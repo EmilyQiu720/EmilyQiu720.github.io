@@ -16,6 +16,7 @@ This portfolio highlights my proficiency in various data analysis tools and prog
   - MATLAB
     - [Machine Learning Explorer Application (MLx.m)](https://emilyqiu720.github.io/#machine-learning-explorer-application-mlxm)
   - SQL
+    - [The EZ Trainer Database]()
   - R
   - Excel / Google Sheets
   - Tableau---> [go to Tableau..](https://public.tableau.com/app/profile/)
@@ -122,6 +123,14 @@ Additionally, the integration facilitated dynamic generation of confusion charts
 <img align="left" src="images/Machine Learning Explorer Application (MLx.m)/MLx app.png" />
 
 <img align="left" src="images/Machine Learning Explorer Application (MLx.m)/confusion_chart.png" />
+
+### The EZ Trainer Database
+**Code:**
+**Goal:** 
+**Description:**
+**Skills:**
+**Technology:**
+**Results:**
 
 ## Certificates
 - [App Building Onramp](https://matlabacademy.mathworks.com/progress/share/certificate.html?id=28510b61-79f7-48e8-87f0-7b6b9dee6623&)
