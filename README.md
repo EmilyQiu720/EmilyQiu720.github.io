@@ -142,6 +142,8 @@ Jupyter Notebook for data manipulation and visualization
 
 **Results:** Successfully implemented a scalable database that centralizes user information, simplifies administrative tasks, and supports advanced data analytics for personalized service delivery. Enhanced member engagement and operational efficiency were achieved through the integration of VR and detailed nutritional and workout tracking.
 
+<img align="left"  src="images/The EZ Trainer Database/ez_trainer_dashboard.png"/><br>
+
 ## Certificates
 - [App Building Onramp](https://matlabacademy.mathworks.com/progress/share/certificate.html?id=28510b61-79f7-48e8-87f0-7b6b9dee6623&)
 - [MATLAB Onramp](https://matlabacademy.mathworks.com/progress/share/certificate.html?id=9b11823d-a74c-4d68-b795-5195298c9199&)
