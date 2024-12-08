@@ -16,7 +16,7 @@ This portfolio highlights my proficiency in various data analysis tools and prog
   - MATLAB
     - [Machine Learning Explorer Application (MLx.m)](https://emilyqiu720.github.io/#machine-learning-explorer-application-mlxm)
   - SQL
-    - [The EZ Trainer Database]()
+    - [The EZ Trainer Database](https://emilyqiu720.github.io/#the-ez-trainer-database)
   - R
   - Excel / Google Sheets
   - Tableau---> [go to Tableau..](https://public.tableau.com/app/profile/)
@@ -125,12 +125,22 @@ Additionally, the integration facilitated dynamic generation of confusion charts
 <img align="left" src="images/Machine Learning Explorer Application (MLx.m)/confusion_chart.png" />
 
 ### The EZ Trainer Database
-**Code:**
-**Goal:** 
-**Description:**
-**Skills:**
-**Technology:**
-**Results:**
+
+**Code:** [The EZ Trainer Database](https://github.com/EmilyQiu720/PortfolioProjects/tree/main/The%20EZ%20Trainer%20Database)
+
+**Goal:** To design and implement a comprehensive relational database for EZ Gym, integrating membership, operations, workout logging, and nutritional tracking, along with developing a VR-integrated fitness solution.
+
+**Description:** The project involved developing a database system for EZ Gym, a fitness center that merges VR technology with personalized training experiences. The database supports various functions, including membership management, staff scheduling, and inventory management. Additionally, the system tracks workout and nutrition data for personalized health recommendations.
+
+**Skills:** Database Design and Management, SQL Query Optimization, Data Analysis and Visualization, Integration of VR technology in fitness solutions
+
+**Technology:** 
+SQL for relational database management
+MongoDB for handling semi-structured data
+Python for data analysis and backend operations
+Jupyter Notebook for data manipulation and visualization
+
+**Results:** Successfully implemented a scalable database that centralizes user information, simplifies administrative tasks, and supports advanced data analytics for personalized service delivery. Enhanced member engagement and operational efficiency were achieved through the integration of VR and detailed nutritional and workout tracking.
 
 ## Certificates
 - [App Building Onramp](https://matlabacademy.mathworks.com/progress/share/certificate.html?id=28510b61-79f7-48e8-87f0-7b6b9dee6623&)
