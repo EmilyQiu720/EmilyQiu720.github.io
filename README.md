@@ -16,7 +16,7 @@ This portfolio highlights my proficiency in various data analysis tools and prog
   - MATLAB
     - [Machine Learning Explorer Application (MLx.m)](https://emilyqiu720.github.io/#machine-learning-explorer-application-mlxm)
   - SQL
-    - [The EZ Trainer Database](https://emilyqiu720.github.io/#the-ez-trainer-database)
+    - [The EZ Trainer Database](https://EmilyQiu720.github.io#the-ez-trainer-database)
   - R
   - Excel / Google Sheets
   - Tableau---> [go to Tableau..](https://public.tableau.com/app/profile/)
