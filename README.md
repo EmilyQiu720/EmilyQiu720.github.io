@@ -142,6 +142,8 @@ Jupyter Notebook for data manipulation and visualization
 
 **Results:** Successfully implemented a scalable database that centralizes user information, simplifies administrative tasks, and supports advanced data analytics for personalized service delivery. Enhanced member engagement and operational efficiency were achieved through the integration of VR and detailed nutritional and workout tracking.
 
+**Dashboard:** https://ez-training.streamlit.app/
+
 <img align="left"  src="images/The EZ Trainer Database/ez_trainer_dashboard.png"/><br>
 
 ## Certificates
