@@ -41,11 +41,13 @@ This portfolio highlights my proficiency in various data analysis tools and prog
    Utilized influencer-based collaborative filtering by computing caption similarity (TF-IDF + cosine similarity) and follower overlap via KNN (k=11) to identify a pool of relevant products. Historical influencer engagement and popularity trends were also incorporated to ensure diversity and completeness of the candidate set.
 
 2) **Fine Ranking Stage:**  
-   Relevance scores were computed using a hybrid scoring model:  
+   Relevance scores were computed using a hybrid scoring model:
+   
    $\text{Score}_{\text{user, product}} = \alpha \times \text{Predicted Likes} + \beta \times \text{Collaborative Filtering Score} + \gamma \times \text{User-Product Embedding Similarity}$
+   
    A LightGBM model was trained on multi-dimensional features (influencer attributes, product metadata, timing) to predict post engagement (likes/comments), achieving an $R^2 = 0.507$.
 
-3) **Re-Ranking Stage:**  
+4) **Re-Ranking Stage:**  
    Applied SBERT embeddings and FAISS for fast similarity search between influencer captions and product descriptions. An autoencoder architecture learned a shared latent space for aligning influencers’ post embeddings with product metadata vectors, enabling efficient top-N product recommendations.
 
 
