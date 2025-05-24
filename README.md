@@ -11,6 +11,7 @@ This portfolio highlights my proficiency in various data analysis tools and prog
 - [About](https://emilyqiu720.github.io/#about)
 - [Portfolio Projects](https://emilyqiu720.github.io/#portfolio-projects)
   - Python
+    - [Online Influencer Product Recommendation System]()
     - [Calyber: A Shared Rides Pricing and Matching Game](https://emilyqiu720.github.io/#calyber-a-shared-rides-pricing-and-matching-game)
     - [The Traveling Salesman Problem (TSP)](https://emilyqiu720.github.io/#the-traveling-salesman-problem-tsp)
     - [Machine learning approaches for super-resolution problems](https://emilyqiu720.github.io/#machine-learning-approaches-for-super-resolution-problems)
@@ -26,6 +27,41 @@ This portfolio highlights my proficiency in various data analysis tools and prog
 - [Contact](https://emilyqiu720.github.io/#contact)
 
 ## Portfolio Projects
+
+### Online Influencer Product Recommendation System
+**Code:** [`Online Influencer Product Recommendation System`](https://github.com/EmilyQiu720/PortfolioProjects/tree/main/Online%20Influencer%20Product%20Recommendation%20System)
+
+**Final Presentation:** [`Presentation`](https://github.com/EmilyQiu720/PortfolioProjects/blob/main/Online%20Influencer%20Product%20Recommendation%20System/Presentation.pdf)
+
+**Goal:** To develop a multi-stage, data-driven product recommendation system for social media influencers, aimed at maximizing engagement and sales potential through personalized product placements.
+
+**Description:** This project focused on building a full-stack recommendation engine that identifies and ranks suitable Amazon products for social media influencers based on audience engagement, influencer profile, and market trends. The system integrates multiple machine learning techniques across three main stages:
+
+1) **Recall Stage:**  
+   Utilized influencer-based collaborative filtering by computing caption similarity (TF-IDF + cosine similarity) and follower overlap via KNN (k=11) to identify a pool of relevant products. Historical influencer engagement and popularity trends were also incorporated to ensure diversity and completeness of the candidate set.
+
+2) **Fine Ranking Stage:**  
+   Relevance scores were computed using a hybrid scoring model:  
+   `Score_user,product = α × Predicted Likes + β × Collaborative Filtering Score + γ × User-Product Embedding Similarity`  
+   A LightGBM model was trained on multi-dimensional features (influencer attributes, product metadata, timing) to predict post engagement (likes/comments), achieving an **R² = 0.507**.
+
+3) **Re-Ranking Stage:**  
+   Applied SBERT embeddings and FAISS for fast similarity search between influencer captions and product descriptions. An autoencoder architecture learned a shared latent space for aligning influencers’ post embeddings with product metadata vectors, enabling efficient top-N product recommendations.
+
+
+**Skills:** Collaborative filtering, content-based recommendation, supervised learning (LightGBM), feature engineering, embedding models (SBERT), autoencoders, model evaluation, Streamlit UI development.
+
+**Technology:** Python (scikit-learn, LightGBM, PyTorch, FAISS, NLTK), SBERT, PCA, Streamlit, Amazon Reviews dataset, Instagram API.
+
+**Results:**
+- The LightGBM engagement model demonstrated strong predictive accuracy for likes based on influencer behavior and posting time.
+- Recommender favored fashion and entertainment products, while identifying high engagement potential in underrepresented categories like health and personal care.
+- Influencer engagement patterns showed optimal post timing around late evenings and Mondays.
+- A prototype dashboard built in Streamlit allowed influencers to customize recommendation weights and receive predicted likes, category fit, and best posting time.
+
+This system highlights end-to-end ML pipeline design, integration of structured and unstructured data, and real-world applicability in influencer marketing and recommendation systems.
+
+<img align="left"  src="/images/Online%20Influencer%20Product%20Recommendation%20System/streamlit.png" /><br>
 
 ### Calyber: A Shared Rides Pricing and Matching Game
 **Code:** [`Calyber Game`](https://github.com/EmilyQiu720/PortfolioProjects/tree/main/Calyber%20Game)
