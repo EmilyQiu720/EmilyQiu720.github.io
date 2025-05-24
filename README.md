@@ -42,8 +42,8 @@ This portfolio highlights my proficiency in various data analysis tools and prog
 
 2) **Fine Ranking Stage:**  
    Relevance scores were computed using a hybrid scoring model:  
-   `Score_user,product = α × Predicted Likes + β × Collaborative Filtering Score + γ × User-Product Embedding Similarity`  
-   A LightGBM model was trained on multi-dimensional features (influencer attributes, product metadata, timing) to predict post engagement (likes/comments), achieving an **R² = 0.507**.
+   $\text{Score}_{\text{user, product}} = \alpha \times \text{Predicted Likes} + \beta \times \text{Collaborative Filtering Score} + \gamma \times \text{User-Product Embedding Similarity}$
+   A LightGBM model was trained on multi-dimensional features (influencer attributes, product metadata, timing) to predict post engagement (likes/comments), achieving an $R^2 = 0.507$.
 
 3) **Re-Ranking Stage:**  
    Applied SBERT embeddings and FAISS for fast similarity search between influencer captions and product descriptions. An autoencoder architecture learned a shared latent space for aligning influencers’ post embeddings with product metadata vectors, enabling efficient top-N product recommendations.
