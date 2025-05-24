@@ -11,7 +11,7 @@ This portfolio highlights my proficiency in various data analysis tools and prog
 - [About](https://emilyqiu720.github.io/#about)
 - [Portfolio Projects](https://emilyqiu720.github.io/#portfolio-projects)
   - Python
-    - [Calyber: A Shared Rides Pricing and Matching Game](https://emilyqiu720.github.io/#Calyber: A Shared Rides Pricing and Matching Game)
+    - [Calyber: A Shared Rides Pricing and Matching Game](https://emilyqiu720.github.io/#calyber-a-shared-rides-pricing-and-matching-game)
     - [The Traveling Salesman Problem (TSP)](https://emilyqiu720.github.io/#the-traveling-salesman-problem-tsp)
     - [Machine learning approaches for super-resolution problems](https://emilyqiu720.github.io/#machine-learning-approaches-for-super-resolution-problems)
   - MATLAB
