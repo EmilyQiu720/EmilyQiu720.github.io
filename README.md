@@ -52,6 +52,8 @@ On the matching side, a marginal-gain greedy algorithm was implemented. It asses
 
 This project demonstrates the real-world application of ML algorithms for supply chain and transportation optimization, blending statistical modeling with computational performance for deployment-ready solutions.
 
+<img align="left"  src="/images/Calyber%20Game/calyber_result.png" /><br>
+
 ### The Traveling Salesman Problem (TSP)
 **Code:** [`The Traveling Salesman Problem`](https://github.com/EmilyQiu720/PortfolioProjects/tree/main/The%20Traveling%20Salesman%20Problem)
 
