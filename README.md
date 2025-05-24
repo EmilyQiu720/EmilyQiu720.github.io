@@ -11,6 +11,7 @@ This portfolio highlights my proficiency in various data analysis tools and prog
 - [About](https://emilyqiu720.github.io/#about)
 - [Portfolio Projects](https://emilyqiu720.github.io/#portfolio-projects)
   - Python
+    - [Calyber: A Shared Rides Pricing and Matching Game](https://emilyqiu720.github.io/#Calyber: A Shared Rides Pricing and Matching Game)
     - [The Traveling Salesman Problem (TSP)](https://emilyqiu720.github.io/#the-traveling-salesman-problem-tsp)
     - [Machine learning approaches for super-resolution problems](https://emilyqiu720.github.io/#machine-learning-approaches-for-super-resolution-problems)
   - MATLAB
@@ -25,6 +26,31 @@ This portfolio highlights my proficiency in various data analysis tools and prog
 - [Contact](https://emilyqiu720.github.io/#contact)
 
 ## Portfolio Projects
+
+### Calyber: A Shared Rides Pricing and Matching Game
+**Code:** [`Calyber Game`](https://github.com/EmilyQiu720/PortfolioProjects/tree/main/Calyber%20Game)
+
+**Report:** [`Calyber_Final_Report.pdf`](https://github.com/EmilyQiu720/PortfolioProjects/blob/main/Calyber%20Game/Calyber_Final_Report.pdf)
+
+**Goal:** To develop a scalable, profit-aware, and computationally efficient joint pricing and ride-matching policy for a simulated ride-hailing platform using real-world data.
+
+**Description:** This project tackled the dual challenge of dynamic pricing and real-time rider matching within the Calyber shared mobility platform. Leveraging historical ride data from Chicago, the team engineered a contextual multi-armed bandit algorithm and a profit-maximizing greedy matcher to simulate intelligent dispatch behavior.
+
+The pricing policy used a contextual Beta-Bernoulli Thompson sampling bandit, trained offline, to learn rider price sensitivity across origin-destination pairs, pool sizes, and wait-time buckets. The model balanced exploration and exploitation under uncertainty, enabling adaptive, interpretable pricing within sub-5ms runtime limits.
+
+On the matching side, a marginal-gain greedy algorithm was implemented. It assessed every new rider’s incremental profit potential with existing waiting riders and executed matches only when doing so improved overall system profit. This ensured matches were not only feasible but also financially optimal.
+
+**Skills:** Bayesian machine learning, simulation modeling, dynamic pricing, real-time decision-making, matching algorithms, performance benchmarking.
+
+**Technology:** Python (NumPy, pandas, scikit-learn), simulation frameworks, Git.
+
+**Results:** 
+- Achieved a $0.65/mi net profit, up from a negative baseline.
+- Reached a 43% rider conversion rate, demonstrating effective pricing.
+- 54% match rate with high cost-efficiency (detours under 8% of solo miles).
+- Runtime latency kept under 5ms per decision, meeting real-time constraints.
+
+This project demonstrates the real-world application of ML algorithms for supply chain and transportation optimization, blending statistical modeling with computational performance for deployment-ready solutions.
 
 ### The Traveling Salesman Problem (TSP)
 **Code:** [`The Traveling Salesman Problem`](https://github.com/EmilyQiu720/PortfolioProjects/tree/main/The%20Traveling%20Salesman%20Problem)
