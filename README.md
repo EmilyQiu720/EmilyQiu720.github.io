@@ -1,11 +1,11 @@
 ## About
-Hi, I'm Emily! I hold a bachelor's degree in Applied Mathematics and am currently pursuing my MS in Analytics at UC Berkeley. My academic background has equipped me with a strong foundation in mathematics and statistics, driving my passion for deriving actionable insights from data across diverse industries. I am eager to apply my technical and analytical skills as an entry-level data specialist in data science.
+Hi, I’m Emily — a data science professional with a BSc in Applied Mathematics from the University of Edinburgh and a recently completed Master’s in Analytics from UC Berkeley. My academic and project experience bridges mathematical rigor with real-world applications, from predictive modeling and NLP to optimization, recommendation systems, and behavioral simulation.
 
-Beyond academics, I actively explore new data analysis tools and methodologies, continuously expanding my knowledge. Whether collaborating in teams or independently, I find satisfaction in uncovering insights and solving complex problems using data.
+I’m passionate about uncovering actionable insights through data — whether by designing machine learning models, architecting data pipelines, or visualizing complex patterns for decision-making. My work spans domains like e-commerce, sustainability, finance, and transportation, and I’m always eager to explore new technologies and frameworks that drive smarter systems.
 
-Outside of academia, I dedicate my free time to exploring new data analysis tools and methodologies, constantly seeking opportunities to enhance my knowledge and skill set. Whether collaborating within a team or working independently, I am motivated by the thrill of discovering new insights and the gratification of leveraging data to tackle intricate problems.
+I enjoy both independent deep work and collaborative problem-solving, and thrive in environments where intellectual curiosity, experimentation, and cross-functional teamwork are valued. I approach every project with a learning mindset and a focus on impact — combining technical precision with clear communication.
 
-This portfolio highlights my proficiency in various data analysis tools and programming skills, demonstrating my growth and commitment to this dynamic field.
+This portfolio showcases the projects, tools, and techniques that reflect my growth, adaptability, and dedication to building meaningful, data-driven solutions.
 
 ## Table of Contents
 - [About](https://emilyqiu720.github.io/#about)
