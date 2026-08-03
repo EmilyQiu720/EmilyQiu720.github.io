@@ -24,6 +24,7 @@ This portfolio showcases the projects, tools, and techniques that reflect my gro
   - R
     - [Clinical Outcomes Causal Inference in R](https://EmilyQiu720.github.io#clinical-outcomes-causal-inference-in-r)
   - Excel / Google Sheets
+    - [FP&A Scenario Planning Model in Excel](https://EmilyQiu720.github.io#fpa-scenario-planning-model-in-excel)
   - Tableau---> [go to Tableau..](https://public.tableau.com/app/profile/)
   - Power BI
 - [Certificates](https://emilyqiu720.github.io/#certificates)
@@ -283,6 +284,29 @@ The project is structured as a reproducible R workflow rather than a one-off not
 - Compared unadjusted, covariate-adjusted, matched, and weighted treatment effect estimates.
 - Added Kaplan-Meier and Cox proportional hazards survival analysis for time-to-event outcomes.
 - Packaged the workflow with a Quarto report, Shiny app, reproducible `targets` pipeline, dependency lock pattern, and automated tests.
+
+### FP&A Scenario Planning Model in Excel
+
+**Code:** [FP&A Scenario Planning Model in Excel](https://github.com/EmilyQiu720/PortfolioProjects/tree/main/FP%26A%20Scenario%20Planning%20Model%20in%20Excel)
+
+**Goal:** To build an executive-ready SaaS FP&A workbook that forecasts revenue, expenses, cash flow, burn rate, runway, CAC payback, and key operating metrics under base, upside, and downside scenarios.
+
+**Description:** This project creates a formula-driven Excel planning model for a SaaS company. The workbook separates inputs, assumptions, calculations, dashboard outputs, and validation checks so the model is easy to update, trace, and audit. Leadership can switch between base, upside, and downside cases to understand how growth, churn, acquisition spend, hiring, and operating expense assumptions affect MRR, ARR, gross profit, burn, ending cash, and runway.
+
+The workbook includes source tabs for assumptions, historical actuals, and hiring plans; calculation tabs for revenue forecast, expense forecast, cash flow, and sensitivity analysis; and an executive dashboard with KPI cards and native Excel charts. A validation tab flags scenario selection issues, missing assumptions, customer roll-forward breaks, cash roll-forward breaks, and negative cash outcomes.
+
+**Skills:** FP&A modeling, SaaS revenue forecasting, scenario planning, sensitivity analysis, cash runway modeling, financial dashboard design, Excel formulas, validation checks, workbook automation, stakeholder reporting.
+
+**Technology:** Excel, JavaScript workbook automation, `@oai/artifact-tool`, CSV inputs, formula-driven model design, native Excel charts.
+
+**Results:**
+- Built a 24-month SaaS FP&A workbook with base, upside, and downside scenario controls.
+- Modeled customer growth, churn, ARPA growth, MRR, ARR, NRR, CAC spend, headcount, payroll, opex, burn, cash flow, runway, and CAC payback.
+- Added dashboard KPI cards and charts for MRR, ending cash, net burn, and headcount.
+- Added validation checks to make model integrity visible to reviewers.
+- Packaged source CSVs, methodology notes, generated workbook, dashboard screenshot, and reproducible build script.
+
+<img align="left" src="images/FP%26A%20Scenario%20Planning%20Model%20in%20Excel/dashboard_preview.png" /><br>
 
 ## Certificates
 - [App Building Onramp](https://matlabacademy.mathworks.com/progress/share/certificate.html?id=28510b61-79f7-48e8-87f0-7b6b9dee6623&)
