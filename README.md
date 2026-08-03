@@ -19,6 +19,7 @@ This portfolio showcases the projects, tools, and techniques that reflect my gro
   - MATLAB
     - [Machine Learning Explorer Application (MLx.m)](https://emilyqiu720.github.io/#machine-learning-explorer-application-mlxm)
   - SQL
+    - [Payment Fraud SQL Intelligence Platform](https://EmilyQiu720.github.io#payment-fraud-sql-intelligence-platform)
     - [The EZ Trainer Database](https://EmilyQiu720.github.io#the-ez-trainer-database)
   - R
   - Excel / Google Sheets
@@ -215,6 +216,29 @@ Additionally, the integration facilitated dynamic generation of confusion charts
 <img align="left" src="images/Machine Learning Explorer Application (MLx.m)/MLx app.png" />
 
 <img align="left" src="images/Machine Learning Explorer Application (MLx.m)/confusion_chart.png" />
+
+### Payment Fraud SQL Intelligence Platform
+
+**Code:** [Payment Fraud SQL Intelligence Platform](https://github.com/EmilyQiu720/PortfolioProjects/tree/main/Payment%20Fraud%20SQL%20Intelligence%20Platform)
+
+**Goal:** To build a production-style PostgreSQL risk analytics platform for payment fraud monitoring, merchant risk scoring, chargeback investigation, data quality testing, governance, and query performance optimization.
+
+**Description:** This project models a realistic payment platform with customers, accounts, merchants, payment methods, device fingerprints, transactions, transaction events, fraud alerts, manual reviews, chargebacks, and audit logs. The database is designed to support both operational fraud workflows and analytics use cases, including alert triage, merchant monitoring, customer behavior analysis, and chargeback loss review.
+
+The schema includes primary keys, foreign keys, business constraints, dashboard-ready views, materialized views, partial indexes, audit triggers, role-based access examples, and masked PII views. The SQL query layer implements fraud velocity checks, shared-device detection, country mismatch analysis, high-risk transaction scoring, merchant chargeback analytics, review queue ranking, customer activity cohorts, and operations dashboard metrics.
+
+The project also includes data quality tests, transaction integrity tests, slow-query and optimized-query examples, and EXPLAIN-oriented performance documentation. This makes it a full SQL engineering case study rather than a simple query collection.
+
+**Skills:** PostgreSQL database design, fraud analytics, data modeling, SQL performance tuning, CTEs, window functions, filtered aggregates, materialized views, indexes, audit triggers, RBAC, PII masking, data quality testing, transaction integrity testing.
+
+**Technology:** PostgreSQL, SQL, Docker, Python CLI orchestration, materialized views, triggers, role-based security, EXPLAIN-based optimization.
+
+**Results:**
+- Designed a normalized payment fraud schema with operational and analytical layers.
+- Built fraud detection queries for card velocity, device fan-out, country mismatch, high-risk transaction scoring, and review queue prioritization.
+- Added governance features including audit logging, masked customer views, role-based access examples, and sensitive workflow controls.
+- Created data quality and transaction integrity tests to catch relationship mismatches, invalid amounts, event ordering issues, and incomplete review workflows.
+- Documented performance tuning patterns with slow-query and optimized-query versions using index-friendly predicates and materialized views.
 
 ### The EZ Trainer Database
 
