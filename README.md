@@ -11,6 +11,7 @@ This portfolio showcases the projects, tools, and techniques that reflect my gro
 - [About](https://emilyqiu720.github.io/#about)
 - [Portfolio Projects](https://emilyqiu720.github.io/#portfolio-projects)
   - Python 
+    - [Agent Engineering Systems](https://emilyqiu720.github.io/#agent-engineering-systems)
     - [Online Influencer Product Recommendation System](https://emilyqiu720.github.io/#online-influencer-product-recommendation-system)
     - [Calyber: A Shared Rides Pricing and Matching Game](https://emilyqiu720.github.io/#calyber-a-shared-rides-pricing-and-matching-game)
     - [The Traveling Salesman Problem (TSP)](https://emilyqiu720.github.io/#the-traveling-salesman-problem-tsp)
@@ -27,6 +28,31 @@ This portfolio showcases the projects, tools, and techniques that reflect my gro
 - [Contact](https://emilyqiu720.github.io/#contact)
 
 ## Portfolio Projects
+
+### Agent Engineering Systems
+**Code:** [`Agent Engineering Systems`](https://github.com/EmilyQiu720/PortfolioProjects/tree/main/Agent%20Engineering%20Systems)
+
+**Goal:** To build a portfolio-grade suite of agent engineering systems that demonstrates reliable tool use, stateful execution, workflow orchestration, MCP integration, security guardrails, evaluation, observability, training data construction, reinforcement learning simulation, and research benchmarking.
+
+**Description:** This project consists of ten self-contained Python systems that progress from a minimal agent loop to production and research-oriented agent infrastructure. The suite starts with a tool-calling agent that validates model-generated arguments, executes calculator, SQL, document search, time, and write tools, and records retries, permissions, and tool traces. It then extends into a stateful research agent with context engineering, structured task state, cross-session memory, checkpoint resume, evidence storage, and cited report generation.
+
+The orchestration layer demonstrates how production agent systems combine deterministic workflows with dynamic decision nodes. It includes router, planner-executor, supervisor-worker, generator-critic, handoff, blackboard state, parallel execution, human approval, and global termination controls. A custom industrial MCP-style server exposes inspection tools, resources, and prompts through JSON-RPC-style messages, with schema validation, role/scope authorization, audit logs, two-phase write approval, and local stdio transport.
+
+The production and reliability components implement an agent runtime with API gateway, queue, state store, memory store, artifact store, tracing service, approval service, evaluation service, timeout handling, retry with backoff, circuit breaker, bulkhead isolation, dead-letter queue, idempotency, graceful degradation, model fallback, tool fallback, partial result handling, and cost-per-success metrics. The security project adds prompt injection detection, tenant isolation, resource scoping, SQL allowlists, shell/network sandboxing, PII and secret redaction, dry-run mode, kill switch, approval gates, and final-answer guardrails.
+
+The advanced and research modules demonstrate hierarchical planning, dependency graphs, critical path analysis, search-based planning, dynamic replanning, verifier-guided reflection, persistent workspace management, multi-agent coordination, trajectory collection, tool-call SFT data generation, negative trajectory construction, reward shaping, offline RL simulation, controlled benchmarks, ablation studies, confidence intervals, contamination checks, and scaffold-vs-base-model gain analysis.
+
+**Skills:** Agent architecture, tool calling, context engineering, state/session/memory design, workflow orchestration, MCP-style integration, JSON-RPC, schema validation, security guardrails, RBAC, audit logging, approval workflows, observability, reliability engineering, regression evaluation, trajectory analysis, reward design, research benchmarking.
+
+**Technology:** Python, dataclasses, Pydantic, SQLite, JSON Schema-style validation, JSON-RPC-style transport, local vLLM-compatible client integration, deterministic simulation, CLI tooling, self-test harnesses.
+
+**Results:**
+- Built a ten-project agent engineering suite with each module runnable independently through `--self-test`.
+- Implemented production safety boundaries that prevent unauthorized reads, production deletion, arbitrary SQL, arbitrary shell execution, secret leakage, and approval bypass.
+- Created an MCP-style industrial inspection server exposing `query_defects`, `get_panel_summary`, `get_cad_alignment`, `run_rca`, `get_model_metrics`, and `create_retrain_request` with read/write separation and two-phase approval.
+- Added evaluation infrastructure covering task success, answer correctness, groundedness, completeness, format compliance, tool selection, argument accuracy, trajectory safety, p50/p95/p99 latency, token usage, retry/timeout rates, human intervention rate, and cost per success.
+- Demonstrated production runtime patterns including queueing, checkpoints, artifact persistence, trace events, model/tool fallback, circuit breakers, bulkheads, idempotency, dead-letter handling, and graceful partial-result completion.
+- Included research-oriented infrastructure for controlled benchmarks, ablations, confidence intervals, hidden test cases, contamination checks, and separation of model capability from scaffold gains.
 
 ### Online Influencer Product Recommendation System
 **Code:** [`Online Influencer Product Recommendation System`](https://github.com/EmilyQiu720/PortfolioProjects/tree/main/Online%20Influencer%20Product%20Recommendation%20System)
