@@ -22,6 +22,7 @@ This portfolio showcases the projects, tools, and techniques that reflect my gro
     - [Payment Fraud SQL Intelligence Platform](https://EmilyQiu720.github.io#payment-fraud-sql-intelligence-platform)
     - [The EZ Trainer Database](https://EmilyQiu720.github.io#the-ez-trainer-database)
   - R
+    - [Clinical Outcomes Causal Inference in R](https://EmilyQiu720.github.io#clinical-outcomes-causal-inference-in-r)
   - Excel / Google Sheets
   - Tableau---> [go to Tableau..](https://public.tableau.com/app/profile/)
   - Power BI
@@ -261,6 +262,27 @@ Jupyter Notebook for data manipulation and visualization
 **Dashboard:** https://ez-training.streamlit.app/
 
 <img align="left"  src="images/The EZ Trainer Database/ez_trainer_dashboard.png"/><br>
+
+### Clinical Outcomes Causal Inference in R
+
+**Code:** [Clinical Outcomes Causal Inference in R](https://github.com/EmilyQiu720/PortfolioProjects/tree/main/Clinical%20Outcomes%20Causal%20Inference%20in%20R)
+
+**Goal:** To build a reproducible R analytics project that estimates treatment effects from non-randomized clinical outcome data using causal inference methods, survival analysis, regression modeling, diagnostics, reporting, and an interactive dashboard.
+
+**Description:** This project simulates an observational clinical study where treated and control patients differ in baseline severity, comorbidity, age, prior utilization, and hospital site. Because treatment assignment is not randomized, naive comparisons can be biased. The analysis uses propensity score modeling, nearest-neighbor matching, inverse probability weighting, covariate balance diagnostics, logistic regression, and Cox proportional hazards models to estimate adjusted treatment associations.
+
+The project is structured as a reproducible R workflow rather than a one-off notebook. It includes synthetic data generation, data cleaning and validation functions, standardized mean difference balance checks, propensity score adjustment, survival modeling, Kaplan-Meier visualization, a Quarto report, a Shiny dashboard, a `targets` pipeline, an `renv` dependency pattern, and `testthat` tests for core data and model outputs.
+
+**Skills:** R programming, causal inference, propensity score modeling, matching, inverse probability weighting, survival analysis, Cox regression, logistic regression, covariate balance diagnostics, reproducible research, statistical reporting, Shiny dashboard development, test-driven analytical workflows.
+
+**Technology:** R, tidyverse, targets, renv, MatchIt, survival, broom, ggplot2, Quarto, Shiny, testthat.
+
+**Results:**
+- Built a synthetic clinical outcomes dataset with realistic confounding between treatment assignment and patient risk.
+- Implemented reusable R functions for data validation, balance diagnostics, propensity score adjustment, outcome modeling, survival analysis, and visualization.
+- Compared unadjusted, covariate-adjusted, matched, and weighted treatment effect estimates.
+- Added Kaplan-Meier and Cox proportional hazards survival analysis for time-to-event outcomes.
+- Packaged the workflow with a Quarto report, Shiny app, reproducible `targets` pipeline, dependency lock pattern, and automated tests.
 
 ## Certificates
 - [App Building Onramp](https://matlabacademy.mathworks.com/progress/share/certificate.html?id=28510b61-79f7-48e8-87f0-7b6b9dee6623&)
