@@ -313,7 +313,7 @@ The workbook includes source tabs for assumptions, historical actuals, and hirin
 
 **Code:** [Retail Supply Chain Control Tower in Tableau](https://github.com/EmilyQiu720/PortfolioProjects/tree/main/Retail%20Supply%20Chain%20Control%20Tower%20in%20Tableau)
 
-**Tableau Public:** Pending publication.
+**Tableau Public:** [Retail Supply Chain Control Tower](https://public.tableau.com/app/profile/emily.qiu6817/viz/RetailSupplyChainControlTower/ExecutiveOverview?publish=yes)
 
 **Goal:** To build a Tableau-ready retail supply chain control tower that monitors fulfillment SLA, warehouse bottlenecks, inventory risk, return rates, and SKU profitability.
 
@@ -329,7 +329,7 @@ The project includes calculated fields for revenue, gross margin, on-time delive
 - Generated validated Tableau-ready CSVs for orders, shipments, inventory, returns, and warehouse targets.
 - Designed an executive control tower dashboard for revenue, margin, SLA, returns, and inventory risk.
 - Documented Tableau relationships, calculated fields, parameters, dashboard pages, and drilldown workflow.
-- Built a dashboard mockup to guide Tableau Public implementation before publication.
+- Published the Executive Overview dashboard to Tableau Public and packaged the supporting data/modeling assets for review.
 
 <img align="left" src="images/Retail%20Supply%20Chain%20Control%20Tower%20in%20Tableau/dashboard_mockup.svg" /><br>
 
