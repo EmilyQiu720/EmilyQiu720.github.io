@@ -25,7 +25,8 @@ This portfolio showcases the projects, tools, and techniques that reflect my gro
     - [Clinical Outcomes Causal Inference in R](https://EmilyQiu720.github.io#clinical-outcomes-causal-inference-in-r)
   - Excel / Google Sheets
     - [FP&A Scenario Planning Model in Excel](https://EmilyQiu720.github.io#fpa-scenario-planning-model-in-excel)
-  - Tableau---> [go to Tableau..](https://public.tableau.com/app/profile/)
+  - Tableau
+    - [Retail Supply Chain Control Tower in Tableau](https://EmilyQiu720.github.io#retail-supply-chain-control-tower-in-tableau)
   - Power BI
 - [Certificates](https://emilyqiu720.github.io/#certificates)
 - [Contact](https://emilyqiu720.github.io/#contact)
@@ -307,6 +308,30 @@ The workbook includes source tabs for assumptions, historical actuals, and hirin
 - Packaged source CSVs, methodology notes, generated workbook, dashboard screenshot, and reproducible build script.
 
 <img align="left" src="images/FP%26A%20Scenario%20Planning%20Model%20in%20Excel/dashboard_preview.png" /><br>
+
+### Retail Supply Chain Control Tower in Tableau
+
+**Code:** [Retail Supply Chain Control Tower in Tableau](https://github.com/EmilyQiu720/PortfolioProjects/tree/main/Retail%20Supply%20Chain%20Control%20Tower%20in%20Tableau)
+
+**Tableau Public:** Pending publication.
+
+**Goal:** To build a Tableau-ready retail supply chain control tower that monitors fulfillment SLA, warehouse bottlenecks, inventory risk, return rates, and SKU profitability.
+
+**Description:** This project creates a BI-ready retail operations dataset and dashboard specification for Tableau Public. The data model combines orders, shipments, inventory, returns, and warehouse targets so operations leaders can move from executive KPI signals to region, warehouse, SKU, and order-level drilldowns.
+
+The project includes calculated fields for revenue, gross margin, on-time delivery rate, late shipment rate, return rate, refund rate, fill rate, inventory days remaining, stockout risk score, SLA gap, and warehouse SLA status. It also includes LOD-style calculations for warehouse and SKU performance, a parameter-driven metric selector, a dashboard specification, and a step-by-step Tableau Public build guide.
+
+**Skills:** Tableau dashboard design, BI data modeling, supply chain analytics, KPI design, calculated fields, LOD calculations, parameter controls, drilldown actions, operational analytics, executive reporting.
+
+**Technology:** Tableau Public, CSV data model, Python synthetic data generation, Tableau calculated fields, dashboard actions, operational KPI design.
+
+**Results:**
+- Generated validated Tableau-ready CSVs for orders, shipments, inventory, returns, and warehouse targets.
+- Designed an executive control tower dashboard for revenue, margin, SLA, returns, and inventory risk.
+- Documented Tableau relationships, calculated fields, parameters, dashboard pages, and drilldown workflow.
+- Built a dashboard mockup to guide Tableau Public implementation before publication.
+
+<img align="left" src="images/Retail%20Supply%20Chain%20Control%20Tower%20in%20Tableau/dashboard_mockup.svg" /><br>
 
 ## Certificates
 - [App Building Onramp](https://matlabacademy.mathworks.com/progress/share/certificate.html?id=28510b61-79f7-48e8-87f0-7b6b9dee6623&)

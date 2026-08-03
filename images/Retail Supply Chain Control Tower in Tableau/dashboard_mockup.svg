@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#f8fafc"/>
+  <rect x="0" y="0" width="1600" height="76" fill="#111827"/>
+  <text x="36" y="47" font-family="Aptos, Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Retail Supply Chain Control Tower</text>
+  <text x="1140" y="47" font-family="Aptos, Arial, sans-serif" font-size="16" fill="#cbd5e1">Executive Overview | Tableau Public Build Spec</text>
+
+  <g font-family="Aptos, Arial, sans-serif">
+    <rect x="36" y="104" width="285" height="118" rx="8" fill="#ffffff" stroke="#dbe4ea"/>
+    <text x="58" y="136" font-size="15" fill="#64748b">Revenue</text>
+    <text x="58" y="184" font-size="36" font-weight="700" fill="#0f766e">$2.8M</text>
+    <text x="58" y="207" font-size="14" fill="#16a34a">+12.4% vs prior period</text>
+
+    <rect x="351" y="104" width="285" height="118" rx="8" fill="#ffffff" stroke="#dbe4ea"/>
+    <text x="373" y="136" font-size="15" fill="#64748b">Gross Margin</text>
+    <text x="373" y="184" font-size="36" font-weight="700" fill="#0f766e">41.8%</text>
+    <text x="373" y="207" font-size="14" fill="#16a34a">3.8 pts above target</text>
+
+    <rect x="666" y="104" width="285" height="118" rx="8" fill="#ffffff" stroke="#dbe4ea"/>
+    <text x="688" y="136" font-size="15" fill="#64748b">On-Time Delivery</text>
+    <text x="688" y="184" font-size="36" font-weight="700" fill="#b45309">81.6%</text>
+    <text x="688" y="207" font-size="14" fill="#b45309">Below SLA in 3 warehouses</text>
+
+    <rect x="981" y="104" width="285" height="118" rx="8" fill="#ffffff" stroke="#dbe4ea"/>
+    <text x="1003" y="136" font-size="15" fill="#64748b">Return Rate</text>
+    <text x="1003" y="184" font-size="36" font-weight="700" fill="#be123c">10.9%</text>
+    <text x="1003" y="207" font-size="14" fill="#be123c">Apparel and late deliveries elevated</text>
+
+    <rect x="1296" y="104" width="268" height="118" rx="8" fill="#ffffff" stroke="#dbe4ea"/>
+    <text x="1318" y="136" font-size="15" fill="#64748b">High-Risk SKUs</text>
+    <text x="1318" y="184" font-size="36" font-weight="700" fill="#be123c">17</text>
+    <text x="1318" y="207" font-size="14" fill="#be123c">Inventory days below threshold</text>
+
+    <rect x="36" y="254" width="480" height="282" rx="8" fill="#ffffff" stroke="#dbe4ea"/>
+    <text x="60" y="288" font-size="19" font-weight="700" fill="#0f172a">Regional Fulfillment Risk</text>
+    <rect x="82" y="340" width="340" height="34" fill="#0f766e"/>
+    <text x="438" y="363" font-size="14" fill="#334155">West 86%</text>
+    <rect x="82" y="398" width="300" height="34" fill="#14b8a6"/>
+    <text x="398" y="421" font-size="14" fill="#334155">Central 82%</text>
+    <rect x="82" y="456" width="255" height="34" fill="#f97316"/>
+    <text x="353" y="479" font-size="14" fill="#334155">East 76%</text>
+    <line x1="82" y1="512" x2="430" y2="512" stroke="#94a3b8" stroke-dasharray="5 6"/>
+    <text x="82" y="528" font-size="13" fill="#64748b">Target SLA 88%</text>
+
+    <rect x="548" y="254" width="486" height="282" rx="8" fill="#ffffff" stroke="#dbe4ea"/>
+    <text x="572" y="288" font-size="19" font-weight="700" fill="#0f172a">Revenue and Margin Trend</text>
+    <polyline points="590,470 650,452 710,440 770,424 830,403 890,386 950,360 1010,344" fill="none" stroke="#0f766e" stroke-width="4"/>
+    <polyline points="590,420 650,418 710,410 770,405 830,394 890,388 950,381 1010,370" fill="none" stroke="#2563eb" stroke-width="4"/>
+    <line x1="590" y1="500" x2="1010" y2="500" stroke="#cbd5e1"/>
+    <line x1="590" y1="320" x2="590" y2="500" stroke="#cbd5e1"/>
+    <text x="590" y="520" font-size="12" fill="#64748b">Jan</text>
+    <text x="992" y="520" font-size="12" fill="#64748b">Jun</text>
+    <circle cx="930" cy="282" r="6" fill="#0f766e"/><text x="944" y="287" font-size="13" fill="#334155">Revenue</text>
+    <circle cx="930" cy="306" r="6" fill="#2563eb"/><text x="944" y="311" font-size="13" fill="#334155">Gross Margin</text>
+
+    <rect x="1066" y="254" width="498" height="282" rx="8" fill="#ffffff" stroke="#dbe4ea"/>
+    <text x="1090" y="288" font-size="19" font-weight="700" fill="#0f172a">Top At-Risk Warehouses</text>
+    <text x="1090" y="332" font-size="14" font-weight="700" fill="#64748b">Warehouse</text>
+    <text x="1340" y="332" font-size="14" font-weight="700" fill="#64748b">SLA Gap</text>
+    <text x="1450" y="332" font-size="14" font-weight="700" fill="#64748b">Status</text>
+    <line x1="1090" y1="346" x2="1536" y2="346" stroke="#e2e8f0"/>
+    <text x="1090" y="382" font-size="15" fill="#0f172a">Miami DC</text><text x="1340" y="382" font-size="15" fill="#be123c">-12.1 pts</text><text x="1450" y="382" font-size="15" fill="#be123c">At Risk</text>
+    <text x="1090" y="426" font-size="15" fill="#0f172a">Los Angeles DC</text><text x="1340" y="426" font-size="15" fill="#be123c">-9.4 pts</text><text x="1450" y="426" font-size="15" fill="#be123c">At Risk</text>
+    <text x="1090" y="470" font-size="15" fill="#0f172a">New Jersey DC</text><text x="1340" y="470" font-size="15" fill="#b45309">-4.6 pts</text><text x="1450" y="470" font-size="15" fill="#b45309">Watch</text>
+
+    <rect x="36" y="568" width="732" height="280" rx="8" fill="#ffffff" stroke="#dbe4ea"/>
+    <text x="60" y="602" font-size="19" font-weight="700" fill="#0f172a">Inventory Stockout Risk by SKU</text>
+    <rect x="70" y="642" width="620" height="26" fill="#be123c"/><text x="704" y="662" font-size="14" fill="#334155">Portable Charger</text>
+    <rect x="70" y="686" width="548" height="26" fill="#f97316"/><text x="632" y="706" font-size="14" fill="#334155">Running Shoes</text>
+    <rect x="70" y="730" width="492" height="26" fill="#f59e0b"/><text x="576" y="750" font-size="14" fill="#334155">Air Purifier</text>
+    <rect x="70" y="774" width="430" height="26" fill="#14b8a6"/><text x="514" y="794" font-size="14" fill="#334155">Skin Care Kit</text>
+
+    <rect x="800" y="568" width="764" height="280" rx="8" fill="#ffffff" stroke="#dbe4ea"/>
+    <text x="824" y="602" font-size="19" font-weight="700" fill="#0f172a">Returns and Profitability Drilldown</text>
+    <text x="824" y="648" font-size="14" font-weight="700" fill="#64748b">Category</text>
+    <text x="1010" y="648" font-size="14" font-weight="700" fill="#64748b">Return Rate</text>
+    <text x="1180" y="648" font-size="14" font-weight="700" fill="#64748b">Gross Margin</text>
+    <text x="1370" y="648" font-size="14" font-weight="700" fill="#64748b">Action</text>
+    <line x1="824" y1="662" x2="1518" y2="662" stroke="#e2e8f0"/>
+    <text x="824" y="700" font-size="15" fill="#0f172a">Apparel</text><text x="1010" y="700" font-size="15" fill="#be123c">14.8%</text><text x="1180" y="700" font-size="15" fill="#0f766e">38.2%</text><text x="1370" y="700" font-size="15" fill="#334155">Review sizing/returns</text>
+    <text x="824" y="746" font-size="15" fill="#0f172a">Electronics</text><text x="1010" y="746" font-size="15" fill="#b45309">10.2%</text><text x="1180" y="746" font-size="15" fill="#0f766e">42.4%</text><text x="1370" y="746" font-size="15" fill="#334155">Monitor late delivery</text>
+    <text x="824" y="792" font-size="15" fill="#0f172a">Home</text><text x="1010" y="792" font-size="15" fill="#0f766e">6.7%</text><text x="1180" y="792" font-size="15" fill="#0f766e">44.1%</text><text x="1370" y="792" font-size="15" fill="#334155">Healthy</text>
+  </g>
+</svg>
