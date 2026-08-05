@@ -331,7 +331,7 @@ The project includes calculated fields for revenue, gross margin, on-time delive
 - Documented Tableau relationships, calculated fields, parameters, dashboard pages, and drilldown workflow.
 - Published the Executive Overview dashboard to Tableau Public and packaged the supporting data/modeling assets for review.
 
-<img align="left" src="images/Retail%20Supply%20Chain%20Control%20Tower%20in%20Tableau/dashboard_mockup.svg" /><br>
+<img align="left" src="images/Retail%20Supply%20Chain%20Control%20Tower%20in%20Tableau/dashboard_actual.jpg" /><br>
 
 ## Certificates
 - [App Building Onramp](https://matlabacademy.mathworks.com/progress/share/certificate.html?id=28510b61-79f7-48e8-87f0-7b6b9dee6623&)
