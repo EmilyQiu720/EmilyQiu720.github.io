@@ -12,6 +12,7 @@ This portfolio showcases the projects, tools, and techniques that reflect my gro
 - [Portfolio Projects](https://emilyqiu720.github.io/#portfolio-projects)
   - Python 
     - [Agent Engineering Systems](https://emilyqiu720.github.io/#agent-engineering-systems)
+    - [Production ML Risk Scoring API](https://emilyqiu720.github.io/#production-ml-risk-scoring-api)
     - [Online Influencer Product Recommendation System](https://emilyqiu720.github.io/#online-influencer-product-recommendation-system)
     - [Calyber: A Shared Rides Pricing and Matching Game](https://emilyqiu720.github.io/#calyber-a-shared-rides-pricing-and-matching-game)
     - [The Traveling Salesman Problem (TSP)](https://emilyqiu720.github.io/#the-traveling-salesman-problem-tsp)
@@ -58,6 +59,28 @@ The advanced and research modules demonstrate hierarchical planning, dependency 
 - Added evaluation infrastructure covering task success, answer correctness, groundedness, completeness, format compliance, tool selection, argument accuracy, trajectory safety, p50/p95/p99 latency, token usage, retry/timeout rates, human intervention rate, and cost per success.
 - Demonstrated production runtime patterns including queueing, checkpoints, artifact persistence, trace events, model/tool fallback, circuit breakers, bulkheads, idempotency, dead-letter handling, and graceful partial-result completion.
 - Included research-oriented infrastructure for controlled benchmarks, ablations, confidence intervals, hidden test cases, contamination checks, and separation of model capability from scaffold gains.
+
+### Production ML Risk Scoring API
+**Code:** [Production ML Risk Scoring API](https://github.com/EmilyQiu720/PortfolioProjects/tree/main/Production%20ML%20Risk%20Scoring%20API)
+
+**Goal:** To build a production-style machine learning backend that serves real-time transaction risk scores, supports batch scoring, logs predictions for auditability, exposes model registry metadata, and includes drift monitoring patterns.
+
+**Description:** This project turns a model artifact into a reliable backend service. It includes a FastAPI application with versioned online and batch scoring endpoints, Pydantic request and response schemas, a deterministic model registry, reusable feature transformation, approve/manual-review/decline decision policy, API key authentication, prediction logging with masked customer identifiers, and a batch scoring CLI.
+
+The project is structured like a production MLE service rather than a notebook. The model artifact is stored separately from code, the same feature contract is shared by API and batch workflows, prediction logs are persisted for monitoring and delayed-label joins, and drift monitoring utilities use Population Stability Index. The repository also includes Docker packaging, environment configuration, API documentation, monitoring notes, deployment guidance, model card documentation, and tests.
+
+**Skills:** Machine learning engineering, FastAPI backend development, model serving, Pydantic validation, feature engineering, model registry design, prediction logging, batch inference, drift monitoring, API authentication, Docker packaging, testable service architecture.
+
+**Technology:** Python, FastAPI, Pydantic, SQLite, Docker, Docker Compose, pytest-compatible tests, deterministic model artifacts, REST API design.
+
+**Results:**
+- Built a versioned real-time risk scoring API with strict feature validation and response contracts.
+- Implemented online scoring, batch scoring, model metadata loading, decision thresholds, and top-factor explanations.
+- Added masked prediction logging for auditability, monitoring, and delayed-label evaluation workflows.
+- Added drift monitoring utilities, Docker deployment assets, API documentation, model card, and unit tests.
+- Verified Python compilation, core tests, and batch scoring smoke test locally.
+
+<img align="left" src="images/Production%20ML%20Risk%20Scoring%20API/api_observability_mockup.svg" /><br>
 
 ### Online Influencer Product Recommendation System
 **Code:** [`Online Influencer Product Recommendation System`](https://github.com/EmilyQiu720/PortfolioProjects/tree/main/Online%20Influencer%20Product%20Recommendation%20System)
