@@ -1,51 +1,117 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-  <rect width="1600" height="900" fill="#f7fafc"/>
-  <rect width="1600" height="74" fill="#12212f"/>
-  <text x="36" y="48" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Healthcare Revenue Cycle Analytics</text>
-  <text x="1192" y="48" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#cbd5e1">Power BI Semantic Model | Executive View</text>
+  <rect width="1600" height="900" fill="#f6f8fb"/>
+  <rect x="0" y="0" width="1600" height="68" fill="#111827"/>
+  <text x="34" y="45" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Healthcare Revenue Cycle Analytics</text>
+
   <g font-family="Segoe UI, Arial, sans-serif">
-    <rect x="34" y="106" width="280" height="118" rx="6" fill="#ffffff" stroke="#d8e1ea"/>
-    <text x="56" y="138" font-size="15" fill="#64748b">Net Revenue</text><text x="56" y="187" font-size="36" font-weight="700" fill="#0f766e">$11.8M</text><text x="56" y="209" font-size="13" fill="#16a34a">+8.4% YoY</text>
-    <rect x="344" y="106" width="280" height="118" rx="6" fill="#ffffff" stroke="#d8e1ea"/>
-    <text x="366" y="138" font-size="15" fill="#64748b">Collection Rate</text><text x="366" y="187" font-size="36" font-weight="700" fill="#0f766e">86.2%</text><text x="366" y="209" font-size="13" fill="#b45309">2.1 pts below target</text>
-    <rect x="654" y="106" width="280" height="118" rx="6" fill="#ffffff" stroke="#d8e1ea"/>
-    <text x="676" y="138" font-size="15" fill="#64748b">Denial Rate</text><text x="676" y="187" font-size="36" font-weight="700" fill="#be123c">12.9%</text><text x="676" y="209" font-size="13" fill="#be123c">$1.7M denied charges</text>
-    <rect x="964" y="106" width="280" height="118" rx="6" fill="#ffffff" stroke="#d8e1ea"/>
-    <text x="986" y="138" font-size="15" fill="#64748b">Days in AR</text><text x="986" y="187" font-size="36" font-weight="700" fill="#b45309">43.6</text><text x="986" y="209" font-size="13" fill="#b45309">Commercial lag rising</text>
-    <rect x="1274" y="106" width="292" height="118" rx="6" fill="#ffffff" stroke="#d8e1ea"/>
-    <text x="1296" y="138" font-size="15" fill="#64748b">AR Over 90 Days</text><text x="1296" y="187" font-size="36" font-weight="700" fill="#be123c">28.4%</text><text x="1296" y="209" font-size="13" fill="#be123c">Self Pay and Medicaid risk</text>
-    <rect x="34" y="258" width="492" height="286" rx="6" fill="#ffffff" stroke="#d8e1ea"/>
-    <text x="58" y="292" font-size="20" font-weight="700" fill="#0f172a">Denial Rate by Payer</text>
-    <rect x="78" y="337" width="352" height="30" fill="#be123c"/><text x="444" y="358" font-size="14" fill="#334155">Self Pay 21.8%</text>
-    <rect x="78" y="384" width="286" height="30" fill="#f97316"/><text x="378" y="405" font-size="14" fill="#334155">State Medicaid 16.4%</text>
-    <rect x="78" y="431" width="222" height="30" fill="#f59e0b"/><text x="314" y="452" font-size="14" fill="#334155">Medicare Adv. 12.2%</text>
-    <rect x="78" y="478" width="168" height="30" fill="#14b8a6"/><text x="260" y="499" font-size="14" fill="#334155">Commercial 8.7%</text>
-    <rect x="558" y="258" width="486" height="286" rx="6" fill="#ffffff" stroke="#d8e1ea"/>
-    <text x="582" y="292" font-size="20" font-weight="700" fill="#0f172a">Net Revenue and Denials Trend</text>
-    <polyline points="600,470 660,438 720,420 780,386 840,374 900,344 960,326 1020,308" fill="none" stroke="#0f766e" stroke-width="4"/>
-    <polyline points="600,390 660,407 720,394 780,418 840,388 900,398 960,370 1020,360" fill="none" stroke="#be123c" stroke-width="4"/>
-    <line x1="600" y1="498" x2="1020" y2="498" stroke="#cbd5e1"/>
-    <circle cx="866" cy="288" r="6" fill="#0f766e"/><text x="880" y="293" font-size="13" fill="#334155">Net Revenue</text>
-    <circle cx="866" cy="314" r="6" fill="#be123c"/><text x="880" y="319" font-size="13" fill="#334155">Denied Amount</text>
-    <rect x="1076" y="258" width="490" height="286" rx="6" fill="#ffffff" stroke="#d8e1ea"/>
-    <text x="1100" y="292" font-size="20" font-weight="700" fill="#0f172a">AR Aging by Payer</text>
-    <text x="1100" y="336" font-size="14" font-weight="700" fill="#64748b">Payer</text><text x="1320" y="336" font-size="14" font-weight="700" fill="#64748b">90+ AR</text><text x="1440" y="336" font-size="14" font-weight="700" fill="#64748b">Risk</text>
-    <line x1="1100" y1="350" x2="1538" y2="350" stroke="#e2e8f0"/>
-    <text x="1100" y="388" font-size="15" fill="#0f172a">Self Pay</text><text x="1320" y="388" font-size="15" fill="#be123c">$1.2M</text><text x="1440" y="388" font-size="15" fill="#be123c">High</text>
-    <text x="1100" y="434" font-size="15" fill="#0f172a">State Medicaid</text><text x="1320" y="434" font-size="15" fill="#b45309">$860K</text><text x="1440" y="434" font-size="15" fill="#b45309">Watch</text>
-    <text x="1100" y="480" font-size="15" fill="#0f172a">Medicare Adv.</text><text x="1320" y="480" font-size="15" fill="#b45309">$740K</text><text x="1440" y="480" font-size="15" fill="#b45309">Watch</text>
-    <rect x="34" y="578" width="732" height="278" rx="6" fill="#ffffff" stroke="#d8e1ea"/>
-    <text x="58" y="612" font-size="20" font-weight="700" fill="#0f172a">Denial Root Cause Mix</text>
-    <rect x="78" y="652" width="580" height="28" fill="#be123c"/><text x="674" y="672" font-size="14" fill="#334155">Authorization</text>
-    <rect x="78" y="696" width="480" height="28" fill="#f97316"/><text x="574" y="716" font-size="14" fill="#334155">Eligibility</text>
-    <rect x="78" y="740" width="388" height="28" fill="#f59e0b"/><text x="482" y="760" font-size="14" fill="#334155">Clinical Docs</text>
-    <rect x="78" y="784" width="300" height="28" fill="#14b8a6"/><text x="394" y="804" font-size="14" fill="#334155">Coding</text>
-    <rect x="800" y="578" width="766" height="278" rx="6" fill="#ffffff" stroke="#d8e1ea"/>
-    <text x="824" y="612" font-size="20" font-weight="700" fill="#0f172a">Department Performance Drillthrough</text>
-    <text x="824" y="660" font-size="14" font-weight="700" fill="#64748b">Department</text><text x="1045" y="660" font-size="14" font-weight="700" fill="#64748b">Net Revenue</text><text x="1225" y="660" font-size="14" font-weight="700" fill="#64748b">Denial Rate</text><text x="1400" y="660" font-size="14" font-weight="700" fill="#64748b">Action</text>
-    <line x1="824" y1="674" x2="1518" y2="674" stroke="#e2e8f0"/>
-    <text x="824" y="712" font-size="15" fill="#0f172a">Emergency Medicine</text><text x="1045" y="712" font-size="15" fill="#0f766e">$2.4M</text><text x="1225" y="712" font-size="15" fill="#be123c">16.8%</text><text x="1400" y="712" font-size="15" fill="#334155">Auth workflow</text>
-    <text x="824" y="758" font-size="15" fill="#0f172a">Orthopedics</text><text x="1045" y="758" font-size="15" fill="#0f766e">$2.1M</text><text x="1225" y="758" font-size="15" fill="#b45309">11.7%</text><text x="1400" y="758" font-size="15" fill="#334155">Coding review</text>
-    <text x="824" y="804" font-size="15" fill="#0f172a">Radiology</text><text x="1045" y="804" font-size="15" fill="#0f766e">$1.5M</text><text x="1225" y="804" font-size="15" fill="#0f766e">7.9%</text><text x="1400" y="804" font-size="15" fill="#334155">Healthy</text>
+    <rect x="14" y="98" width="324" height="122" fill="#ffffff" stroke="#dfe6ee"/>
+    <text x="24" y="128" font-size="21" fill="#58616d">Net Revenue</text>
+    <text x="24" y="190" font-size="34" fill="#0f766e">$11.8M</text>
+
+    <rect x="390" y="98" width="252" height="122" fill="#ffffff" stroke="#dfe6ee"/>
+    <text x="400" y="128" font-size="21" fill="#58616d">Collection Rate</text>
+    <text x="400" y="190" font-size="34" fill="#0f766e">86.2%</text>
+
+    <rect x="694" y="98" width="252" height="122" fill="#ffffff" stroke="#dfe6ee"/>
+    <text x="704" y="128" font-size="21" fill="#58616d">Denial Rate</text>
+    <text x="704" y="190" font-size="34" fill="#b91c1c">14.2%</text>
+
+    <rect x="998" y="98" width="252" height="122" fill="#ffffff" stroke="#dfe6ee"/>
+    <text x="1008" y="128" font-size="21" fill="#58616d">Days in AR</text>
+    <text x="1008" y="190" font-size="34" fill="#b45309">43.6</text>
+
+    <rect x="1302" y="98" width="284" height="122" fill="#ffffff" stroke="#dfe6ee"/>
+    <text x="1312" y="128" font-size="21" fill="#58616d">AR Over 90 Days</text>
+    <text x="1312" y="190" font-size="34" fill="#be123c">28.4%</text>
+
+    <rect x="14" y="268" width="544" height="280" fill="#ffffff"/>
+    <text x="24" y="304" font-size="28" fill="#1f2937">Denials and Revenue Drilldown</text>
+    <text x="24" y="340" font-size="17" font-weight="600" fill="#1f2937">Payer</text>
+    <text x="174" y="340" font-size="17" font-weight="600" fill="#1f2937">Denial Rate</text>
+    <text x="314" y="340" font-size="17" font-weight="600" fill="#1f2937">Net Revenue</text>
+    <text x="454" y="340" font-size="17" font-weight="600" fill="#1f2937">Action</text>
+    <text x="24" y="378" font-size="17" fill="#1f2937">Self Pay</text>
+    <text x="174" y="378" font-size="17" fill="#767676">21.8%</text>
+    <text x="314" y="378" font-size="17" fill="#767676">$0.8M</text>
+    <text x="454" y="378" font-size="17" fill="#8a8a8a">AR focus</text>
+    <text x="24" y="426" font-size="17" fill="#1f2937">State Medicaid</text>
+    <text x="174" y="426" font-size="17" fill="#767676">16.4%</text>
+    <text x="314" y="426" font-size="17" fill="#767676">$2.1M</text>
+    <text x="454" y="426" font-size="17" fill="#8a8a8a">Auth review</text>
+    <text x="24" y="474" font-size="17" fill="#1f2937">Medicare Adv.</text>
+    <text x="174" y="474" font-size="17" fill="#767676">12.2%</text>
+    <text x="314" y="474" font-size="17" fill="#767676">$3.4M</text>
+    <text x="454" y="474" font-size="17" fill="#8a8a8a">Monitor</text>
+    <text x="24" y="522" font-size="17" fill="#1f2937">Commercial</text>
+    <text x="174" y="522" font-size="17" fill="#767676">8.7%</text>
+    <text x="314" y="522" font-size="17" fill="#767676">$5.5M</text>
+    <text x="454" y="522" font-size="17" fill="#8a8a8a">Healthy</text>
+
+    <rect x="608" y="268" width="464" height="280" fill="#ffffff" stroke="#dfe6ee"/>
+    <text x="618" y="304" font-size="28" fill="#1f2937">Net Revenue and Denials Trend</text>
+    <rect x="902" y="322" width="14" height="14" fill="#8074a8"/>
+    <text x="924" y="336" font-size="17" fill="#5f5f66">Net Revenue</text>
+    <rect x="902" y="350" width="14" height="14" fill="#c7c1f4"/>
+    <text x="924" y="364" font-size="17" fill="#5f5f66">Denied Amount</text>
+    <line x1="640" y1="506" x2="1038" y2="506" stroke="#c9c9c9"/>
+    <polyline points="646,464 704,442 762,410 820,386 878,372 936,424 994,448 1040,462" fill="none" stroke="#8074a8" stroke-width="5" stroke-linecap="round"/>
+    <polyline points="646,434 704,440 762,328 820,374 878,408 936,398 994,412 1040,424" fill="none" stroke="#c7c1f4" stroke-width="5" stroke-linecap="round"/>
+
+    <rect x="1122" y="268" width="464" height="280" fill="#ffffff" stroke="#dfe6ee"/>
+    <text x="1132" y="304" font-size="28" fill="#1f2937">Top At-Risk Payers</text>
+    <text x="1132" y="340" font-size="17" font-weight="600" fill="#1f2937">Payer</text>
+    <text x="1298" y="340" font-size="17" font-weight="600" fill="#1f2937">90+ AR</text>
+    <text x="1438" y="340" font-size="17" font-weight="600" fill="#1f2937">Status</text>
+    <text x="1132" y="382" font-size="17" fill="#1f2937">Self Pay</text>
+    <text x="1298" y="382" font-size="17" fill="#767676">$1.2M</text>
+    <text x="1438" y="382" font-size="17" fill="#c05a84">At Risk</text>
+    <text x="1132" y="438" font-size="17" fill="#1f2937">State Medicaid</text>
+    <text x="1298" y="438" font-size="17" fill="#767676">$860K</text>
+    <text x="1438" y="438" font-size="17" fill="#c05a84">At Risk</text>
+    <text x="1132" y="494" font-size="17" fill="#1f2937">Medicare Adv.</text>
+    <text x="1298" y="494" font-size="17" fill="#767676">$740K</text>
+    <text x="1438" y="494" font-size="17" fill="#c7c1f4">Watch</text>
+
+    <rect x="14" y="604" width="480" height="252" fill="#ffffff"/>
+    <text x="24" y="640" font-size="28" fill="#1f2937">Denial Root Cause Mix</text>
+    <rect x="24" y="684" width="290" height="18" fill="#f3a9bf"/>
+    <text x="322" y="701" font-size="17" fill="#334155">Authorization</text>
+    <rect x="24" y="716" width="264" height="18" fill="#8f837e"/>
+    <text x="296" y="733" font-size="17" fill="#334155">Eligibility</text>
+    <rect x="24" y="748" width="236" height="18" fill="#c45c86"/>
+    <text x="268" y="765" font-size="17" fill="#334155">Clinical Docs</text>
+    <rect x="24" y="780" width="204" height="18" fill="#c7c1f4"/>
+    <text x="236" y="797" font-size="17" fill="#334155">Coding</text>
+    <rect x="24" y="812" width="178" height="18" fill="#8074a8"/>
+    <text x="210" y="829" font-size="17" fill="#334155">Billing Process</text>
+    <line x1="24" y1="844" x2="430" y2="844" stroke="#e6e9ee"/>
+
+    <rect x="544" y="604" width="480" height="252" fill="#ffffff" stroke="#dfe6ee"/>
+    <text x="554" y="640" font-size="28" fill="#1f2937">Payer Denial Risk</text>
+    <line x1="622" y1="760" x2="984" y2="760" stroke="#e6e9ee"/>
+    <line x1="622" y1="692" x2="622" y2="760" stroke="#e6e9ee"/>
+    <rect x="622" y="688" width="310" height="18" fill="#8074a8"/>
+    <text x="938" y="704" font-size="16" fill="#334155">Self Pay 21.8%</text>
+    <rect x="622" y="718" width="234" height="18" fill="#c7c1f4"/>
+    <text x="862" y="734" font-size="16" fill="#334155">Medicaid 16.4%</text>
+    <rect x="622" y="748" width="174" height="18" fill="#c05a84"/>
+    <text x="802" y="764" font-size="16" fill="#334155">Commercial 8.7%</text>
+    <text x="622" y="792" font-size="15" fill="#6b7280">Denial Rate</text>
+
+    <rect x="1072" y="604" width="514" height="252" fill="#ffffff"/>
+    <text x="1082" y="640" font-size="28" fill="#1f2937">AR Aging by Payer</text>
+    <text x="1100" y="684" font-size="17" fill="#6b7280">Self Pay</text>
+    <rect x="1232" y="672" width="286" height="18" fill="#8074a8"/>
+    <text x="1524" y="688" font-size="16" fill="#334155">34.2%</text>
+    <text x="1100" y="718" font-size="17" fill="#6b7280">Medicaid</text>
+    <rect x="1232" y="706" width="250" height="18" fill="#c7c1f4"/>
+    <text x="1488" y="722" font-size="16" fill="#334155">29.1%</text>
+    <text x="1100" y="752" font-size="17" fill="#6b7280">Medicare Adv.</text>
+    <rect x="1232" y="740" width="214" height="18" fill="#c7c1f4"/>
+    <text x="1452" y="756" font-size="16" fill="#334155">24.8%</text>
+    <text x="1100" y="786" font-size="17" fill="#6b7280">Commercial</text>
+    <rect x="1232" y="774" width="166" height="18" fill="#c05a84"/>
+    <text x="1404" y="790" font-size="16" fill="#334155">19.4%</text>
+    <text x="1274" y="828" font-size="17" fill="#1f2937">AR Over 90 Days</text>
   </g>
 </svg>
