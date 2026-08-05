@@ -28,6 +28,7 @@ This portfolio showcases the projects, tools, and techniques that reflect my gro
   - Tableau
     - [Retail Supply Chain Control Tower in Tableau](https://EmilyQiu720.github.io#retail-supply-chain-control-tower-in-tableau)
   - Power BI
+    - [Healthcare Revenue Cycle Analytics in Power BI](https://EmilyQiu720.github.io#healthcare-revenue-cycle-analytics-in-power-bi)
 - [Certificates](https://emilyqiu720.github.io/#certificates)
 - [Contact](https://emilyqiu720.github.io/#contact)
 
@@ -332,6 +333,30 @@ The project includes calculated fields for revenue, gross margin, on-time delive
 - Published the Executive Overview dashboard to Tableau Public and packaged the supporting data/modeling assets for review.
 
 <img align="left" src="images/Retail%20Supply%20Chain%20Control%20Tower%20in%20Tableau/dashboard_actual.jpg" /><br>
+
+### Healthcare Revenue Cycle Analytics in Power BI
+
+**Code:** [Healthcare Revenue Cycle Analytics in Power BI](https://github.com/EmilyQiu720/PortfolioProjects/tree/main/Healthcare%20Revenue%20Cycle%20Analytics%20in%20Power%20BI)
+
+**Power BI Service:** Pending publication.
+
+**Goal:** To build a Power BI-ready healthcare revenue cycle analytics project that monitors net revenue, collection rate, denial rate, days in AR, payer risk, provider performance, and denial root causes.
+
+**Description:** This project models a hospital revenue cycle operation using a governed Power BI semantic layer. The data model combines claims, payments, denials, accounts receivable snapshots, patients, providers, departments, payers, procedures, denial reasons, and a conformed date table. The report design lets finance and operations leaders move from executive KPIs into payer, department, provider, denial, AR aging, and claim-level drillthrough analysis.
+
+The project includes Power Query cleanup instructions, a documented star schema, relationship mapping, a DAX measure table, dashboard specifications, row-level security roles, and validation scripts. The DAX layer covers gross charges, allowed amount, net revenue, collection rate, denial rate, preventable denied amount, clean claim rate, first-pass resolution rate, AR balance, AR over 90 days, days in AR, reimbursement lag, payer mix, YoY growth, and rolling three-month trends.
+
+**Skills:** Power BI semantic modeling, DAX, Power Query, star schema design, healthcare revenue cycle analytics, KPI design, time intelligence, drillthrough pages, row-level security, data validation, executive dashboard design.
+
+**Technology:** Power BI Desktop, Power Query, DAX, CSV data model, Python synthetic data generation, row-level security, healthcare finance analytics.
+
+**Results:**
+- Generated a validated healthcare revenue cycle dataset with 9,000 claims, 7,324 payments, 1,275 denials, and 2,062 AR snapshot rows.
+- Designed a star-schema Power BI model with claims, payments, denials, AR snapshots, and conformed dimensions for payer, department, provider, procedure, patient, denial reason, and date.
+- Built a DAX measure layer for revenue, collection, denials, AR aging, payment lag, payer mix, write-offs, and rolling trend analysis.
+- Documented dashboard pages, drillthrough paths, Power Query steps, RLS roles, and portfolio publication workflow.
+
+<img align="left" src="images/Healthcare%20Revenue%20Cycle%20Analytics%20in%20Power%20BI/dashboard_mockup.svg" /><br>
 
 ## Certificates
 - [App Building Onramp](https://matlabacademy.mathworks.com/progress/share/certificate.html?id=28510b61-79f7-48e8-87f0-7b6b9dee6623&)
