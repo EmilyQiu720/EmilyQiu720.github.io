@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#f5f7fb"/>
+  <rect x="0" y="0" width="230" height="900" fill="#111827"/>
+  <text x="48" y="54" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" fill="#ffffff">RiskOps</text>
+  <text x="48" y="78" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#9ca3af">ML Monitoring</text>
+  <rect x="22" y="128" width="184" height="38" rx="6" fill="#1f2937"/>
+  <text x="48" y="153" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#ffffff">Overview</text>
+  <text x="48" y="204" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#cbd5e1">Predictions</text>
+  <text x="48" y="246" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#cbd5e1">Feature Drift</text>
+  <text x="48" y="288" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#cbd5e1">Model Registry</text>
+  <text x="48" y="330" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#cbd5e1">Scoring Probe</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="264" y="52" font-size="30" font-weight="700" fill="#172033">ML Operations Monitoring Dashboard</text>
+    <text x="264" y="78" font-size="15" fill="#6b7280">Production risk model health, decisions, drift, and prediction audit trail</text>
+
+    <rect x="264" y="114" width="242" height="124" rx="6" fill="#ffffff" stroke="#dfe6ee"/>
+    <text x="282" y="146" font-size="14" fill="#5f6876">P95 LATENCY</text>
+    <text x="282" y="200" font-size="34" font-weight="700" fill="#0f766e">87 ms</text>
+    <text x="282" y="222" font-size="13" fill="#6b7280">-12 ms vs prior hour</text>
+
+    <rect x="524" y="114" width="242" height="124" rx="6" fill="#ffffff" stroke="#dfe6ee"/>
+    <text x="542" y="146" font-size="14" fill="#5f6876">APPROVAL RATE</text>
+    <text x="542" y="200" font-size="34" font-weight="700" fill="#0f766e">72.4%</text>
+    <text x="542" y="222" font-size="13" fill="#6b7280">+1.8 pts today</text>
+
+    <rect x="784" y="114" width="242" height="124" rx="6" fill="#ffffff" stroke="#dfe6ee"/>
+    <text x="802" y="146" font-size="14" fill="#5f6876">MANUAL REVIEW</text>
+    <text x="802" y="200" font-size="34" font-weight="700" fill="#b45309">21.8%</text>
+    <text x="802" y="222" font-size="13" fill="#6b7280">+4.1 pts over baseline</text>
+
+    <rect x="1044" y="114" width="242" height="124" rx="6" fill="#ffffff" stroke="#dfe6ee"/>
+    <text x="1062" y="146" font-size="14" fill="#5f6876">DECLINE RATE</text>
+    <text x="1062" y="200" font-size="34" font-weight="700" fill="#334155">5.8%</text>
+    <text x="1062" y="222" font-size="13" fill="#6b7280">-0.6 pts today</text>
+
+    <rect x="1304" y="114" width="242" height="124" rx="6" fill="#ffffff" stroke="#dfe6ee"/>
+    <text x="1322" y="146" font-size="14" fill="#5f6876">DRIFT ALERTS</text>
+    <text x="1322" y="200" font-size="34" font-weight="700" fill="#be123c">2</text>
+    <text x="1322" y="222" font-size="13" fill="#6b7280">velocity and amount</text>
+
+    <rect x="264" y="268" width="510" height="278" rx="6" fill="#ffffff" stroke="#dfe6ee"/>
+    <text x="284" y="304" font-size="22" font-weight="700" fill="#1f2937">Scoring Volume and Latency</text>
+    <polyline points="302,484 360,458 418,430 476,398 534,410 592,374 650,350 734,332" fill="none" stroke="#8074a8" stroke-width="5" stroke-linecap="round"/>
+    <polyline points="302,414 360,420 418,388 476,394 534,362 592,368 650,344 734,350" fill="none" stroke="#c7c1f4" stroke-width="5" stroke-linecap="round"/>
+    <line x1="302" y1="510" x2="736" y2="510" stroke="#d8dee8"/>
+
+    <rect x="794" y="268" width="350" height="278" rx="6" fill="#ffffff" stroke="#dfe6ee"/>
+    <text x="814" y="304" font-size="22" font-weight="700" fill="#1f2937">Decision Mix</text>
+    <rect x="828" y="358" width="238" height="16" rx="8" fill="#8074a8"/>
+    <text x="828" y="344" font-size="14" fill="#334155">Approve</text>
+    <text x="1076" y="374" font-size="14" fill="#334155">72.4%</text>
+    <rect x="828" y="418" width="132" height="16" rx="8" fill="#c7c1f4"/>
+    <text x="828" y="404" font-size="14" fill="#334155">Manual Review</text>
+    <text x="970" y="434" font-size="14" fill="#334155">21.8%</text>
+    <rect x="828" y="478" width="58" height="16" rx="8" fill="#c05a84"/>
+    <text x="828" y="464" font-size="14" fill="#334155">Decline</text>
+    <text x="896" y="494" font-size="14" fill="#334155">5.8%</text>
+
+    <rect x="1164" y="268" width="382" height="278" rx="6" fill="#ffffff" stroke="#dfe6ee"/>
+    <text x="1184" y="304" font-size="22" font-weight="700" fill="#1f2937">Model Registry</text>
+    <text x="1190" y="354" font-size="14" fill="#6b7280">Active version</text>
+    <text x="1320" y="354" font-size="14" fill="#334155">risk-logit-2026-08-05</text>
+    <text x="1190" y="398" font-size="14" fill="#6b7280">ROC AUC</text>
+    <text x="1320" y="398" font-size="14" fill="#334155">0.913</text>
+    <text x="1190" y="442" font-size="14" fill="#6b7280">Avg precision</text>
+    <text x="1320" y="442" font-size="14" fill="#334155">0.684</text>
+    <text x="1190" y="486" font-size="14" fill="#6b7280">Thresholds</text>
+    <text x="1320" y="486" font-size="14" fill="#334155">review .42 / decline .78</text>
+
+    <rect x="264" y="578" width="390" height="258" rx="6" fill="#ffffff" stroke="#dfe6ee"/>
+    <text x="284" y="614" font-size="22" font-weight="700" fill="#1f2937">Feature Drift Monitor</text>
+    <text x="284" y="662" font-size="15" fill="#334155">velocity_score</text><text x="444" y="662" font-size="15" fill="#be123c">0.28</text><text x="522" y="662" font-size="15" fill="#be123c">drift</text>
+    <text x="284" y="708" font-size="15" fill="#334155">order_amount</text><text x="444" y="708" font-size="15" fill="#b45309">0.18</text><text x="522" y="708" font-size="15" fill="#b45309">watch</text>
+    <text x="284" y="754" font-size="15" fill="#334155">ip_risk_score</text><text x="444" y="754" font-size="15" fill="#0f766e">0.09</text><text x="522" y="754" font-size="15" fill="#0f766e">stable</text>
+    <text x="284" y="800" font-size="15" fill="#334155">device_age_days</text><text x="444" y="800" font-size="15" fill="#0f766e">0.05</text><text x="522" y="800" font-size="15" fill="#0f766e">stable</text>
+
+    <rect x="674" y="578" width="540" height="258" rx="6" fill="#ffffff" stroke="#dfe6ee"/>
+    <text x="694" y="614" font-size="22" font-weight="700" fill="#1f2937">Prediction Log Audit</text>
+    <text x="694" y="660" font-size="15" font-weight="700" fill="#64748b">Request</text><text x="842" y="660" font-size="15" font-weight="700" fill="#64748b">Score</text><text x="930" y="660" font-size="15" font-weight="700" fill="#64748b">Decision</text><text x="1072" y="660" font-size="15" font-weight="700" fill="#64748b">Latency</text>
+    <text x="694" y="704" font-size="15" fill="#334155">REQ-100218</text><text x="842" y="704" font-size="15" fill="#334155">0.84</text><text x="930" y="704" font-size="15" fill="#be123c">Decline</text><text x="1072" y="704" font-size="15" fill="#334155">91 ms</text>
+    <text x="694" y="748" font-size="15" fill="#334155">REQ-100407</text><text x="842" y="748" font-size="15" fill="#334155">0.57</text><text x="930" y="748" font-size="15" fill="#b45309">Manual Review</text><text x="1072" y="748" font-size="15" fill="#334155">82 ms</text>
+    <text x="694" y="792" font-size="15" fill="#334155">REQ-100512</text><text x="842" y="792" font-size="15" fill="#334155">0.12</text><text x="930" y="792" font-size="15" fill="#0f766e">Approve</text><text x="1072" y="792" font-size="15" fill="#334155">74 ms</text>
+
+    <rect x="1234" y="578" width="312" height="258" rx="6" fill="#111827"/>
+    <text x="1254" y="614" font-size="22" font-weight="700" fill="#ffffff">Live Scoring Probe</text>
+    <text x="1254" y="652" font-size="13" fill="#cbd5e1">POST /v1/score</text>
+    <text x="1254" y="696" font-size="15" fill="#e5e7eb">request_id: REQ-DEMO</text>
+    <text x="1254" y="728" font-size="15" fill="#e5e7eb">order_amount: 2800.50</text>
+    <text x="1254" y="760" font-size="15" fill="#e5e7eb">velocity_score: 0.91</text>
+    <rect x="1254" y="792" width="146" height="30" rx="6" fill="#ffffff"/>
+    <text x="1276" y="813" font-size="14" font-weight="700" fill="#111827">Score sample</text>
+  </g>
+</svg>

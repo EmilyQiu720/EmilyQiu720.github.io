@@ -13,6 +13,7 @@ This portfolio showcases the projects, tools, and techniques that reflect my gro
   - Python 
     - [Agent Engineering Systems](https://emilyqiu720.github.io/#agent-engineering-systems)
     - [Production ML Risk Scoring API](https://emilyqiu720.github.io/#production-ml-risk-scoring-api)
+    - [ML Operations Monitoring Dashboard](https://emilyqiu720.github.io/#ml-operations-monitoring-dashboard)
     - [Online Influencer Product Recommendation System](https://emilyqiu720.github.io/#online-influencer-product-recommendation-system)
     - [Calyber: A Shared Rides Pricing and Matching Game](https://emilyqiu720.github.io/#calyber-a-shared-rides-pricing-and-matching-game)
     - [The Traveling Salesman Problem (TSP)](https://emilyqiu720.github.io/#the-traveling-salesman-problem-tsp)
@@ -81,6 +82,28 @@ The project is structured like a production MLE service rather than a notebook. 
 - Verified Python compilation, core tests, and batch scoring smoke test locally.
 
 <img align="left" src="images/Production%20ML%20Risk%20Scoring%20API/api_observability_mockup.svg" /><br>
+
+### ML Operations Monitoring Dashboard
+**Code:** [ML Operations Monitoring Dashboard](https://github.com/EmilyQiu720/PortfolioProjects/tree/main/ML%20Operations%20Monitoring%20Dashboard)
+
+**Goal:** To build a frontend monitoring dashboard for the Production ML Risk Scoring API, covering model health, scoring volume, latency, decision distribution, feature drift, prediction audit logs, model registry metadata, and a live scoring probe.
+
+**Description:** This project is the frontend companion to the production ML backend. It uses React, TypeScript, and Vite to create a product-style monitoring surface for machine learning operations. The dashboard includes KPI cards, an SVG request-volume and latency chart, decision mix visualization, feature drift table, prediction audit log, model registry panel, and a live scoring console that can call the FastAPI `/v1/score` endpoint.
+
+The interface is designed for ML platform engineers, risk operations leads, and data scientists who need to monitor model behavior after deployment. It runs independently with mock monitoring data, while also supporting local backend integration through environment variables for the risk scoring API base URL and API key.
+
+**Skills:** React, TypeScript, frontend architecture, API integration, operational dashboard design, ML monitoring UX, responsive layout, SVG data visualization, component design, product requirements.
+
+**Technology:** React, TypeScript, Vite, CSS Grid, SVG charts, lucide-react, REST API integration.
+
+**Results:**
+- Built a responsive ML monitoring dashboard with production-style operational panels.
+- Integrated a live scoring probe for the FastAPI risk scoring backend.
+- Implemented reusable components for KPIs, trends, decision mix, drift monitoring, prediction logs, and model registry metadata.
+- Added architecture notes, API integration documentation, and product requirements.
+- Verified the app with `npm install` and `npm run build`.
+
+<img align="left" src="images/ML%20Operations%20Monitoring%20Dashboard/dashboard_preview.svg" /><br>
 
 ### Online Influencer Product Recommendation System
 **Code:** [`Online Influencer Product Recommendation System`](https://github.com/EmilyQiu720/PortfolioProjects/tree/main/Online%20Influencer%20Product%20Recommendation%20System)
